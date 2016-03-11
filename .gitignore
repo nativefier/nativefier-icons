@@ -1,11 +1,14 @@
+# jekyll
+_site/
+.sass-cache/
+.jekyll-metadata
+
 # OSX
 .DS_Store
 
 # Node.js
-
-# ignore compiled lib files
 lib
-dist
+coverage
 
 # Logs
 logs
