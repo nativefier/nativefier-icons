@@ -1,11 +1,3 @@
-# Nativefier Icons
-
-Icon Repository for [Nativefier](https://github.com/jiahaog/nativefier/).
-
-Nativefier will look in this repository for high resolution icons before trying to automatically infer an icon from the target Url.
-
-The [index](http://jiahaog.com/nativefier-icons/) is automatically generated with [GitCloud](https://github.com/jiahaog/gitcloud) using Jekyll.
-
 ## Contributing
 
 Feel free to submit a pull request for any `.ico`, `.icns` or `.png` icon!
@@ -40,9 +32,3 @@ For example, add the following lines to the end of the file.
 ### Step 3
 
 You're done! Submit a pull request with the changes and I'll merge them in as soon as possible.
-
-## Work In Progress
-
-- [ ] Proper naming conventions (Suggessions are welcome!)
-- [ ] CI tests for pull requests
-- [ ] Just use a `.png` and let CI convert the icons to the other formats
