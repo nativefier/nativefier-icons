@@ -6,6 +6,10 @@
 
 - href: files/inbox.png
   name: inbox
+- href: files/inbox.ico
+  name: inbox
+- href: files/inbox.icns
+  name: inbox
 
 - href: files/messenger.png
   name: messenger
