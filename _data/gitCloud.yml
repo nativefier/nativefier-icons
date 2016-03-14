@@ -22,6 +22,10 @@
 
 - href: files/whatsapp.png
   name: whatsapp
+- href: files/whatsapp.ico
+  name: whatsapp
+- href: files/whatsapp.icns
+  name: whatsapp
 
 - href: files/youtube.png
   name: youtube
