@@ -1,0 +1,81 @@
+#!/bin/sh
+
+# Will automatically convert and add the output properly to gitCloud
+
+# USAGE
+# ./addIcon <input png or svg>
+
+# Example
+# ./addIcon ~/Desktop/facebook.png
+
+
+set -e
+
+# Exec Paths
+IMAGEMAGICK_CONVERT=$(which convert)
+IMAGEMAGICK_IDENTIFY=$(which identify)
+SVG2PNG=$(which svg2png)
+CONVERT_TO_ICNS="${BASH_SOURCE%/*}/bin/convertToIcns"
+CONVERT_TO_ICO="${BASH_SOURCE%/*}/bin/convertToIco"
+
+if [ ! -x "${IMAGEMAGICK_CONVERT}" ]; then
+	echo "Cannot find required ImageMagick Convert executable" >&2
+	exit 1;
+fi
+if [ ! -x "${IMAGEMAGICK_IDENTIFY}" ]; then
+	echo "Cannot find required ImageMagick Identify executable" >&2
+	exit 1;
+fi
+if [ ! -x "${SVG2PNG}" ]; then
+	echo "Cannot find required svg2png executable" >&2
+	exit 1;
+fi
+
+TEMP_DIR="convert_temp_hello"
+
+function cleanUp() {
+    rm -rf "${TEMP_DIR}"
+}
+
+trap cleanUp EXIT
+
+mkdir -p "${TEMP_DIR}"
+
+SOURCE=$1
+
+NAME=$(basename "${SOURCE}")
+EXT="${NAME##*.}"
+BASE="${NAME%.*}"
+
+if [ "${EXT}" == "svg" ]; then
+    svg2png "${SOURCE}" "--output=${TEMP_DIR}/${BASE}.png" "--width=1024" "--height=1024"
+    SOURCE="${TEMP_DIR}/${BASE}.png"
+fi
+
+NAME=$(basename "${SOURCE}")
+EXT="${NAME##*.}"
+
+if [ "${EXT}" != "png" ]; then
+    echo ".png or .svg must be provided"
+    exit 1
+fi
+
+cp "${SOURCE}" "files/${BASE}.png"
+${CONVERT_TO_ICNS} "${SOURCE}" "files/${BASE}.icns"
+${CONVERT_TO_ICO} "${SOURCE}" "files/${BASE}.ico"
+#
+##- name: youtube
+##  href: files/youtube.png
+#
+#
+## append to file
+echo "- name: ${BASE}" >> _data/gitCloud.yml
+echo "  href: files/${BASE}.png" >> _data/gitCloud.yml
+echo "- name: ${BASE}" >> _data/gitCloud.yml
+echo "  href: files/${BASE}.ico" >> _data/gitCloud.yml
+echo "- name: ${BASE}" >> _data/gitCloud.yml
+echo "  href: files/${BASE}.icns" >> _data/gitCloud.yml
+echo "- name: ${BASE}\n" >> _data/gitCloud.yml
+
+trap - EXIT
+cleanUp
