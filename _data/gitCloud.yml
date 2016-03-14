@@ -3,6 +3,10 @@
 
 - name: gmail
   href: files/gmail.png
+- name: gmail
+  href: files/gmail.ico
+- name: gmail
+  href: files/gmail.icns
 
 - name: inbox
   href: files/inbox.png
