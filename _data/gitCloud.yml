@@ -11,6 +11,13 @@
 - name: inbox
   href: files/inbox.icns
 
+- name: medium
+  href: files/medium.png
+- name: medium
+  href: files/medium.ico
+- name: medium
+  href: files/medium.icns
+
 - name: messenger
   href: files/messenger.png
 - name: messenger
@@ -33,5 +40,3 @@
 
 - name: youtube
   href: files/youtube.png
-
-
