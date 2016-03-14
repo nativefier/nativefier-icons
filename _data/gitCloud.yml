@@ -13,6 +13,10 @@
 
 - name: messenger
   href: files/messenger.png
+- name: messenger
+  href: files/messenger.ico
+- name: messenger
+  href: files/messenger.icns
 
 - name: reddit
   href: files/reddit.png
