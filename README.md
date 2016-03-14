@@ -46,3 +46,9 @@ You're done! Submit a pull request with the changes and I'll merge them in as so
 - [ ] Proper naming conventions (Suggessions are welcome!)
 - [ ] CI tests for pull requests
 - [ ] Just use a `.png` and let CI convert the icons to the other formats
+
+## Credits
+
+Some logos are sourced and converted from the really awesome svg logo repository [gilbarbara/logos](https://github.com/gilbarbara/logos).
+
+All logos appearing on the site are the property of their respective owners.
