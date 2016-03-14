@@ -8,6 +8,9 @@
 # Example
 # ./addIcon ~/Desktop/facebook.png
 
+## Dependencies
+
+# imagemagick, svg2png
 
 set -e
 
@@ -43,6 +46,11 @@ mkdir -p "${TEMP_DIR}"
 
 SOURCE=$1
 
+if [ -z "${SOURCE}" ]; then
+	echo "No source image specified"
+	exit 1
+fi
+
 NAME=$(basename "${SOURCE}")
 EXT="${NAME##*.}"
 BASE="${NAME%.*}"
@@ -63,12 +71,8 @@ fi
 cp "${SOURCE}" "files/${BASE}.png"
 ${CONVERT_TO_ICNS} "${SOURCE}" "files/${BASE}.icns"
 ${CONVERT_TO_ICO} "${SOURCE}" "files/${BASE}.ico"
-#
-##- name: youtube
-##  href: files/youtube.png
-#
-#
-## append to file
+
+## append to .gitCloud.yml
 echo "- name: ${BASE}" >> _data/gitCloud.yml
 echo "  href: files/${BASE}.png" >> _data/gitCloud.yml
 echo "- name: ${BASE}" >> _data/gitCloud.yml
