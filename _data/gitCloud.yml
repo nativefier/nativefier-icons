@@ -1,33 +1,33 @@
-- href: files/facebook.png
-  name: facebook
+- name: facebook
+  href: files/facebook.png
 
-- href: files/gmail.png
-  name: gmail
+- name: gmail
+  href: files/gmail.png
 
-- href: files/inbox.png
-  name: inbox
-- href: files/inbox.ico
-  name: inbox
-- href: files/inbox.icns
-  name: inbox
+- name: inbox
+  href: files/inbox.png
+- name: inbox
+  href: files/inbox.ico
+- name: inbox
+  href: files/inbox.icns
 
-- href: files/messenger.png
-  name: messenger
+- name: messenger
+  href: files/messenger.png
 
-- href: files/reddit.png
-  name: reddit
+- name: reddit
+  href: files/reddit.png
 
-- href: files/twitter.png
-  name: twitter
+- name: twitter
+  href: files/twitter.png
 
-- href: files/whatsapp.png
-  name: whatsapp
-- href: files/whatsapp.ico
-  name: whatsapp
-- href: files/whatsapp.icns
-  name: whatsapp
+- name: whatsapp
+  href: files/whatsapp.png
+- name: whatsapp
+  href: files/whatsapp.ico
+- name: whatsapp
+  href: files/whatsapp.icns
 
-- href: files/youtube.png
-  name: youtube
+- name: youtube
+  href: files/youtube.png
 
 

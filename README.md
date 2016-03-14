@@ -33,8 +33,8 @@ Add an entry for the file to `./data/gitCloud.yml`
 For example, add the following lines to the end of the file.
 
 ```yml
-- href: files/facebook.ico
-  name: facebook
+- name: facebook
+  href: files/facebook.ico
 ```
 
 ### Step 3
