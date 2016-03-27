@@ -70,6 +70,14 @@
 - name: gmail
   href: files/gmail.icns
 
+- name: groupme
+  href: files/groupme.png
+- name: groupme
+  href: files/groupme.ico
+- name: groupme
+  href: files/groupme.icns
+- name: groupme
+
 - name: ifttt
   href: files/ifttt.png
 - name: ifttt
