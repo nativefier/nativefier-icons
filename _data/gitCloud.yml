@@ -225,3 +225,6 @@
 - name: youtube
   href: files/youtube.icns
 - name: youtube
+
+- name: schoolloop
+  href: files/schoolloop.png
