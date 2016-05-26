@@ -51,6 +51,10 @@
   href: files/facebook.icns
 - name: facebook
 
+- name: fastmail
+  href: files/fastmail.png
+- name: fastmail
+  href: files/fastmail.icns
 
 - name: github
   href: files/github.png
