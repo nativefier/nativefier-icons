@@ -19,6 +19,14 @@
 - name: google_calendar
   href: files/google-calendar.icns
 
+- name: devdocs
+  href: files/devdocs.png
+- name: devdocs
+  href: files/devdocs.ico
+- name: devdocs
+  href: files/devdocs.icns
+- name: devdocs
+
 - name: dropbox
   href: files/dropbox.png
 - name: dropbox
