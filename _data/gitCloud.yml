@@ -14,6 +14,11 @@
   href: files/basecamp.icns
 - name: basecamp
 
+- name: google_calendar
+  href: files/google_calendar.png
+- name: google_calendar
+  href: files/google_calendar.icns
+
 - name: dropbox
   href: files/dropbox.png
 - name: dropbox
