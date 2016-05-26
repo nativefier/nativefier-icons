@@ -268,3 +268,7 @@
 
 - name: schoolloop
   href: files/schoolloop.png
+- name: schoolloop
+  href: files/schoolloop.ico
+- name: schoolloop
+  href: files/schoolloop.icns
