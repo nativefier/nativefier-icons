@@ -55,6 +55,8 @@
   href: files/fastmail.png
 - name: fastmail
   href: files/fastmail.icns
+- name: fastmail
+  href: files/fastmail.ico
 
 - name: github
   href: files/github.png
