@@ -83,6 +83,20 @@
 - name: gmail
   href: files/gmail.icns
 
+- name: GooglePhotos
+  href: files/GooglePhotos.png
+- name: GooglePhotos
+  href: files/GooglePhotos.ico
+- name: GooglePhotos
+  href: files/GooglePhotos.icns
+
+- name: GoogleKeep
+  href: files/GoogleKeep.png
+- name: GoogleKeep
+  href: files/GoogleKeep.ico
+- name: GoogleKeep
+  href: files/GoogleKeep.icns
+
 - name: ifttt
   href: files/ifttt.png
 - name: ifttt

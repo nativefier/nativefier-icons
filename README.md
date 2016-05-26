@@ -18,6 +18,8 @@ If the icons for the correct platforms are found here, the [optional dependencie
 
 For example, I want to add an `.ico` file to the repository, for [http://www.facebook.com/](http://www.facebook.com/).
 
+A helpful tool for this is [iconverticons.com](https://iconverticons.com/online/)
+
 ### Naming Convention
 
 Rename the icon file to `facebook.ico`, just use the key identifier for the page.
