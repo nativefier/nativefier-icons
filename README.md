@@ -18,11 +18,17 @@ If the icons for the correct platforms are found here, the [optional dependencie
 
 For example, I want to add an `.ico` file to the repository, for [http://www.facebook.com/](http://www.facebook.com/).
 
-A helpful tool for this is [iconverticons.com](https://iconverticons.com/online/)
+A helpful tool for this is [iconverticons.com](https://iconverticons.com/online/).
+
+Or you can take a look at `./addIcon` which **should** automatically convert a `.png` and carry out the entire process for you. (Still needs testing)
 
 ### Naming Convention
 
 Rename the icon file to `facebook.ico`, just use the key identifier for the page.
+
+However, if the product is popular product, name it as `${COMPANY}-${PRODUCT}.png`, with `-` as the delimiter. The matching algorithm works by taking a score of the number of words matched in the file name with the target url. 
+
+Take the example of naming Google Photos. Using `photos.png` is too generic, and we want it to be specific to google. Thus, we will name it `google-photos.png`. 
 
 ### Step 1
 
