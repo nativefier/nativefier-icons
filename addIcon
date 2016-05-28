@@ -68,7 +68,8 @@ if [ "${EXT}" != "png" ]; then
     exit 1
 fi
 
-cp "${SOURCE}" "files/${BASE}.png"
+# Force exit 0 for cp so that if files are identical the script will still proceed to overwrite
+cp "${SOURCE}" "files/${BASE}.png" || :
 ${CONVERT_TO_ICNS} "${SOURCE}" "files/${BASE}.icns"
 ${CONVERT_TO_ICO} "${SOURCE}" "files/${BASE}.ico"
 
