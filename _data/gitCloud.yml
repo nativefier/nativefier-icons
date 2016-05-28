@@ -77,7 +77,9 @@
 
 - name: google-calendar
   href: files/google-calendar.png
-- name: google_calendar
+- name: google-calendar
+  href: files/google-calendar.ico
+- name: google-calendar
   href: files/google-calendar.icns
 
 - name: google-inbox
