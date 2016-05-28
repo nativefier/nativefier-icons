@@ -15,24 +15,12 @@
 set -e
 
 # Exec Paths
-IMAGEMAGICK_CONVERT=$(which convert)
-IMAGEMAGICK_IDENTIFY=$(which identify)
-SVG2PNG=$(which svg2png)
+type convert >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Convert executable"; exit 1; }
+type identify >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Identify executable"; exit 1; }
+type svg2png >/dev/null 2>&1 || { echo >&2 "Cannot find required svg2png executable"; exit 1; }
+
 CONVERT_TO_ICNS="${BASH_SOURCE%/*}/bin/convertToIcns"
 CONVERT_TO_ICO="${BASH_SOURCE%/*}/bin/convertToIco"
-
-if [ ! -x "${IMAGEMAGICK_CONVERT}" ]; then
-	echo "Cannot find required ImageMagick Convert executable" >&2
-	exit 1;
-fi
-if [ ! -x "${IMAGEMAGICK_IDENTIFY}" ]; then
-	echo "Cannot find required ImageMagick Identify executable" >&2
-	exit 1;
-fi
-if [ ! -x "${SVG2PNG}" ]; then
-	echo "Cannot find required svg2png executable" >&2
-	exit 1;
-fi
 
 TEMP_DIR="convert_temp_hello"
 
