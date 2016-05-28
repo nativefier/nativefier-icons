@@ -4,7 +4,6 @@
   href: files/asana.ico
 - name: asana
   href: files/asana.icns
-- name: asana
 
 - name: basecamp
   href: files/basecamp.png
@@ -12,7 +11,6 @@
   href: files/basecamp.ico
 - name: basecamp
   href: files/basecamp.icns
-- name: basecamp
 
 - name: devdocs
   href: files/devdocs.png
@@ -20,7 +18,6 @@
   href: files/devdocs.ico
 - name: devdocs
   href: files/devdocs.icns
-- name: devdocs
 
 - name: dropbox
   href: files/dropbox.png
@@ -28,7 +25,6 @@
   href: files/dropbox.ico
 - name: dropbox
   href: files/dropbox.icns
-- name: dropbox
 
 - name: duckduckgo
   href: files/duckduckgo.png
@@ -36,7 +32,6 @@
   href: files/duckduckgo.ico
 - name: duckduckgo
   href: files/duckduckgo.icns
-- name: duckduckgo
 
 - name: facebook
   href: files/facebook.png
@@ -44,7 +39,6 @@
   href: files/facebook.ico
 - name: facebook
   href: files/facebook.icns
-- name: facebook
 
 - name: fastmail
   href: files/fastmail.png
@@ -59,7 +53,6 @@
   href: files/github.ico
 - name: github
   href: files/github.icns
-- name: github
 
 - name: github
   href: files/github.png
@@ -67,7 +60,6 @@
   href: files/github.ico
 - name: github
   href: files/github.icns
-- name: github
 
 - name: gitter
   href: files/gitter.png
@@ -75,7 +67,6 @@
   href: files/gitter.ico
 - name: gitter
   href: files/gitter.icns
-- name: gitter
 
 - name: gmail
   href: files/gmail.png
@@ -116,7 +107,6 @@
   href: files/groupme.ico
 - name: groupme
   href: files/groupme.icns
-- name: groupme
 
 - name: ifttt
   href: files/ifttt.png
@@ -124,7 +114,6 @@
   href: files/ifttt.ico
 - name: ifttt
   href: files/ifttt.icns
-- name: ifttt
 
 - name: jira
   href: files/jira.png
@@ -132,7 +121,6 @@
   href: files/jira.ico
 - name: jira
   href: files/jira.icns
-- name: jira
 
 - name: jsfiddle
   href: files/jsfiddle.png
@@ -140,7 +128,6 @@
   href: files/jsfiddle.ico
 - name: jsfiddle
   href: files/jsfiddle.icns
-- name: jsfiddle
 
 - name: instagram
   href: files/instagram.png
@@ -148,7 +135,6 @@
   href: files/instagram.ico
 - name: instagram
   href: files/instagram.icns
-- name: instagram
 
 - name: medium
   href: files/medium.png
@@ -170,7 +156,6 @@
   href: files/pinterest.ico
 - name: pinterest
   href: files/pinterest.icns
-- name: pinterest
 
 - name: producthunt
   href: files/producthunt.png
@@ -178,7 +163,6 @@
   href: files/producthunt.ico
 - name: producthunt
   href: files/producthunt.icns
-- name: producthunt
 
 - name: reddit
   href: files/reddit.png
@@ -186,7 +170,6 @@
   href: files/reddit.ico
 - name: reddit
   href: files/reddit.icns
-- name: reddit
 
 - name: slack
   href: files/slack.png
@@ -194,7 +177,6 @@
   href: files/slack.ico
 - name: slack
   href: files/slack.icns
-- name: slack
 
 - name: slides
   href: files/slides.png
@@ -202,7 +184,6 @@
   href: files/slides.ico
 - name: slides
   href: files/slides.icns
-- name: slides
 
 - name: soundcloud
   href: files/soundcloud.png
@@ -210,7 +191,6 @@
   href: files/soundcloud.ico
 - name: soundcloud
   href: files/soundcloud.icns
-- name: soundcloud
 
 - name: trello
   href: files/trello.png
@@ -218,7 +198,6 @@
   href: files/trello.ico
 - name: trello
   href: files/trello.icns
-- name: trello
 
 - name: tumblr
   href: files/tumblr.png
@@ -226,7 +205,6 @@
   href: files/tumblr.ico
 - name: tumblr
   href: files/tumblr.icns
-- name: tumblr
 
 - name: twitch
   href: files/twitch.png
@@ -234,7 +212,6 @@
   href: files/twitch.ico
 - name: twitch
   href: files/twitch.icns
-- name: twitch
 
 - name: twitter
   href: files/twitter.png
@@ -242,7 +219,6 @@
   href: files/twitter.ico
 - name: twitter
   href: files/twitter.icns
-- name: twitter
 
 - name: whatsapp
   href: files/whatsapp.png
@@ -257,7 +233,6 @@
   href: files/ycombinator.ico
 - name: ycombinator
   href: files/ycombinator.icns
-- name: ycombinator
 
 - name: youtube
   href: files/youtube.png
@@ -265,7 +240,6 @@
   href: files/youtube.ico
 - name: youtube
   href: files/youtube.icns
-- name: youtube
 
 - name: schoolloop
   href: files/schoolloop.png
