@@ -16,42 +16,66 @@ Feel free to submit a pull request for any `.ico`, `.icns` or `.png` icon!
 
 If the icons for the correct platforms are found here, the [optional dependencies](https://github.com/jiahaog/nativefier/#optional-dependencies) for Nativefier might not be required to infer an icon for that particular target web page.
 
-For example, I want to add an `.ico` file to the repository, for [http://www.facebook.com/](http://www.facebook.com/).
-
-A helpful tool for this is [iconverticons.com](https://iconverticons.com/online/).
-
-Or you can take a look at `./addIcon` which **should** automatically convert a `.png` and carry out the entire process for you. (Still needs testing)
-
 ### Naming Convention
 
-Rename the icon file to `facebook.ico`, just use the key identifier for the page.
+Name the icon file to `${PRODUCT}.${EXT}`, just use the key identifier for the page.
 
-However, if the product is popular product, name it as `${COMPANY}-${PRODUCT}.png`, with `-` as the delimiter. The matching algorithm works by taking a score of the number of words matched in the file name with the target url. 
+However, if the product name is generic enough, name it as `${COMPANY}-${PRODUCT}.${EXT}`, with `-` as the delimiter. The matching algorithm works by taking a score of the number of words matched in the file name with the target url. 
 
-Take the example of naming Google Photos. Using `photos.png` is too generic, and we want it to be specific to google. Thus, we will name it `google-photos.png`. 
+Take the example of naming Google Photos for the target url `https://photos.google.com/`. Using `photos.png` is too generic, and we want it to be specific to google. Thus, we will name the icon file `google-photos.png` for a `.png` file. 
 
 ### Step 1
 
-Copy the file to `./files`
+First prepare the image files, for the respective platform as stated above
+
+A helpful tool for converting the icons is [iconverticons.com](https://iconverticons.com/online/).
+
+Copy the images to `./files`.
+
+```
+$ ls -a ./files
+
+google-photos.png
+google-photos.ico
+google-photos.icns
+```
 
 ### Step 2
 
-Add an entry for the file to `./data/gitCloud.yml`
-
-For example, add the following lines to the end of the file.
+Add an entry for the file to `./data/gitCloud.yml`, in alphabetical order
 
 ```yml
-- name: facebook
-  href: files/facebook.ico
+- name: google-photos
+  href: files/google-photos.png
+- name: google-photos
+  href: files/google-photos.ico
+- name: google-photos
+  href: files/google-photos.icns
 ```
 
 ### Step 3
 
 You're done! Submit a pull request with the changes and I'll merge them in as soon as possible.
 
+## Helper Scripts
+
+The main [`./addIcon`](addIcon) script is also provided which takes an input `.png` or `.svg` and does steps 1 and 2 automatically for you.
+ 
+This script only runs on OSX with XCode installed as [IconUtil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html) is required for conversion to a `.icns` file.
+
+Other helpful scripts are:
+
+- [`./bin/convertToIcns`](bin/convertToIcns) 
+- [`./bin/convertToIco`](bin/convertToIco) (Supported on Linux)
+- [`./bin/convertToPng`](bin/convertToPng) (Supported on Linux)
+
+You need the following dependencies:
+- [ImageMagick](http://www.imagemagick.org/script/index.php) with `convert` and `identify` in your `$PATH`
+- [svg2png](https://github.com/domenic/svg2png) (For `addIcon` only)
+- [iconUtil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html): Xcode needs to be installed (For `addIcon` and `convertToIcns` only)
+
 ## Work In Progress
 
-- [ ] Proper naming conventions (Suggessions are welcome!)
 - [ ] CI tests for pull requests
 - [ ] Just use a `.png` and let CI convert the icons to the other formats
 
