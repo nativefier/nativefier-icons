@@ -14,11 +14,6 @@
   href: files/basecamp.icns
 - name: basecamp
 
-- name: google-calendar
-  href: files/google-calendar.png
-- name: google_calendar
-  href: files/google-calendar.icns
-
 - name: devdocs
   href: files/devdocs.png
 - name: devdocs
@@ -89,19 +84,31 @@
 - name: gmail
   href: files/gmail.icns
 
-- name: GooglePhotos
-  href: files/GooglePhotos.png
-- name: GooglePhotos
-  href: files/GooglePhotos.ico
-- name: GooglePhotos
-  href: files/GooglePhotos.icns
+- name: google-calendar
+  href: files/google-calendar.png
+- name: google_calendar
+  href: files/google-calendar.icns
 
-- name: GoogleKeep
-  href: files/GoogleKeep.png
-- name: GoogleKeep
-  href: files/GoogleKeep.ico
-- name: GoogleKeep
-  href: files/GoogleKeep.icns
+- name: google-inbox
+  href: files/google-inbox.png
+- name: google-inbox
+  href: files/google-inbox.ico
+- name: google-inbox
+  href: files/google-inbox.icns
+
+- name: google-keep
+  href: files/google-keep.png
+- name: google-keep
+  href: files/google-keep.ico
+- name: google-keep
+  href: files/google-keep.icns
+
+- name: google-photos
+  href: files/google-photos.png
+- name: google-photos
+  href: files/google-photos.ico
+- name: google-photos
+  href: files/google-photos.icns
 
 - name: groupme
   href: files/groupme.png
@@ -134,13 +141,6 @@
 - name: jsfiddle
   href: files/jsfiddle.icns
 - name: jsfiddle
-
-- name: inbox
-  href: files/inbox.png
-- name: inbox
-  href: files/inbox.ico
-- name: inbox
-  href: files/inbox.icns
 
 - name: instagram
   href: files/instagram.png
