@@ -79,7 +79,6 @@ echo "- name: ${BASE}" >> _data/gitCloud.yml
 echo "  href: files/${BASE}.ico" >> _data/gitCloud.yml
 echo "- name: ${BASE}" >> _data/gitCloud.yml
 echo "  href: files/${BASE}.icns" >> _data/gitCloud.yml
-echo "- name: ${BASE}\n" >> _data/gitCloud.yml
 
 trap - EXIT
 cleanUp
