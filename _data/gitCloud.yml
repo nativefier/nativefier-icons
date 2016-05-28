@@ -249,3 +249,10 @@
   href: files/schoolloop.ico
 - name: schoolloop
   href: files/schoolloop.icns
+
+- name: toggl
+  href: files/toggl.png
+- name: toggl
+  href: files/toggl.ico
+- name: toggl
+  href: files/toggl.icns
