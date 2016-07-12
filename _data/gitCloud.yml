@@ -96,6 +96,13 @@
 - name: google-keep
   href: files/google-keep.icns
 
+- name: google-music
+  href: files/google-music.png
+- name: google-music
+  href: files/google-music.ico
+- name: google-music
+  href: files/google-music.icns
+
 - name: google-photos
   href: files/google-photos.png
 - name: google-photos
