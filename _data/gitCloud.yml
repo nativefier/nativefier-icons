@@ -238,9 +238,9 @@
 
 - name: workflowmax
   href: files/workflowmax.png
-- name: whatsapp
+- name: workflowmax
   href: files/workflowmax.ico
-- name: whatsapp
+- name: workflowmax
   href: files/workflowmax.icns
 
 - name: ycombinator
