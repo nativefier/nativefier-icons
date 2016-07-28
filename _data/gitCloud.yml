@@ -236,6 +236,13 @@
 - name: whatsapp
   href: files/whatsapp.icns
 
+- name: workflowmax
+  href: files/workflowmax.png
+- name: whatsapp
+  href: files/workflowmax.ico
+- name: whatsapp
+  href: files/workflowmax.icns
+
 - name: ycombinator
   href: files/ycombinator.png
 - name: ycombinator
