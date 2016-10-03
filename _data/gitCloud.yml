@@ -166,12 +166,26 @@
 - name: pinterest
   href: files/pinterest.icns
 
+- name: pocketcasts
+  href: files/pocketcasts.png
+- name: pocketcasts
+  href: files/pocketcasts.ico
+- name: pocketcasts
+  href: files/pocketcasts.icns
+
 - name: producthunt
   href: files/producthunt.png
 - name: producthunt
   href: files/producthunt.ico
 - name: producthunt
   href: files/producthunt.icns
+
+- name: rainwave
+  href: files/rainwave.png
+- name: rainwave
+  href: files/rainwave.ico
+- name: rainwave
+  href: files/rainwave.icns
 
 - name: reddit
   href: files/reddit.png
