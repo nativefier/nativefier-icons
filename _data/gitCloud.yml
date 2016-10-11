@@ -264,9 +264,9 @@
 - name: schoolloop
   href: files/schoolloop.icns
 
-- name: toggl
-  href: files/toggl.png
-- name: toggl
-  href: files/toggl.ico
-- name: toggl
-  href: files/toggl.icns
+- name: tallyfy
+  href: files/tallyfy.png
+- name: tallyfy
+  href: files/tallyfy.ico
+- name: tallyfy
+  href: files/tallyfy.icns
