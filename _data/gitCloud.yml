@@ -201,6 +201,13 @@
 - name: soundcloud
   href: files/soundcloud.icns
 
+- name: thelounge
+  href: files/thelounge.png
+- name: thelounge
+  href: files/thelounge.ico
+- name: thelounge
+  href: files/thelounge.icns
+
 - name: trello
   href: files/trello.png
 - name: trello
