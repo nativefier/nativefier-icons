@@ -250,6 +250,13 @@
 - name: workflowmax
   href: files/workflowmax.icns
 
+- name: workflowy
+  href: files/workflowy.png
+- name: workflowy
+  href: files/workflowy.ico
+- name: workflowy
+  href: files/workflowy.icns
+
 - name: ycombinator
   href: files/ycombinator.png
 - name: ycombinator
