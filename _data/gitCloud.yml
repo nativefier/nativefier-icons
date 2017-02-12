@@ -82,6 +82,20 @@
 - name: google-calendar
   href: files/google-calendar.icns
 
+- name: google-drive
+  href: files/google-drive.png
+- name: google-drive
+  href: files/google-drive.ico
+- name: google-drive
+  href: files/google-drive.icns
+
+- name: google-hangouts
+  href: files/google-hangouts.png
+- name: google-hangouts
+  href: files/google-hangouts.ico
+- name: google-hangouts
+  href: files/google-hangouts.icns
+
 - name: google-inbox
   href: files/google-inbox.png
 - name: google-inbox
@@ -291,6 +305,13 @@
   href: files/youtube.ico
 - name: youtube
   href: files/youtube.icns
+
+- name: salesforce
+  href: files/salesforce.png
+- name: salesforce
+  href: files/salesforce.ico
+- name: salesforce
+  href: files/salesforce.icns
 
 - name: schoolloop
   href: files/schoolloop.png
