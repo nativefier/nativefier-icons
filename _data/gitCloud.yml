@@ -82,6 +82,20 @@
 - name: google-calendar
   href: files/google-calendar.icns
 
+- name: google-drive
+  href: files/google-drive.png
+- name: google-drive
+  href: files/google-drive.ico
+- name: google-drive
+  href: files/google-drive.icns
+
+- name: google-hangouts
+  href: files/google-hangouts.png
+- name: google-hangouts
+  href: files/google-hangouts.ico
+- name: google-hangouts
+  href: files/google-hangouts.icns
+
 - name: google-inbox
   href: files/google-inbox.png
 - name: google-inbox
@@ -159,6 +173,13 @@
 - name: messenger
   href: files/messenger.icns
 
+- name: microsoft-azure
+  href: files/microsoft-azure.png
+- name: microsoft-azure
+  href: files/microsoft-azure.ico
+- name: microsoft-azure
+  href: files/microsoft-azure.icns
+
 - name: pinterest
   href: files/pinterest.png
 - name: pinterest
@@ -166,12 +187,26 @@
 - name: pinterest
   href: files/pinterest.icns
 
+- name: pocketcasts
+  href: files/pocketcasts.png
+- name: pocketcasts
+  href: files/pocketcasts.ico
+- name: pocketcasts
+  href: files/pocketcasts.icns
+
 - name: producthunt
   href: files/producthunt.png
 - name: producthunt
   href: files/producthunt.ico
 - name: producthunt
   href: files/producthunt.icns
+
+- name: rainwave
+  href: files/rainwave.png
+- name: rainwave
+  href: files/rainwave.ico
+- name: rainwave
+  href: files/rainwave.icns
 
 - name: reddit
   href: files/reddit.png
@@ -200,6 +235,13 @@
   href: files/soundcloud.ico
 - name: soundcloud
   href: files/soundcloud.icns
+
+- name: thelounge
+  href: files/thelounge.png
+- name: thelounge
+  href: files/thelounge.ico
+- name: thelounge
+  href: files/thelounge.icns
 
 - name: trello
   href: files/trello.png
@@ -243,6 +285,13 @@
 - name: workflowmax
   href: files/workflowmax.icns
 
+- name: workflowy
+  href: files/workflowy.png
+- name: workflowy
+  href: files/workflowy.ico
+- name: workflowy
+  href: files/workflowy.icns
+
 - name: ycombinator
   href: files/ycombinator.png
 - name: ycombinator
@@ -257,6 +306,13 @@
 - name: youtube
   href: files/youtube.icns
 
+- name: salesforce
+  href: files/salesforce.png
+- name: salesforce
+  href: files/salesforce.ico
+- name: salesforce
+  href: files/salesforce.icns
+
 - name: schoolloop
   href: files/schoolloop.png
 - name: schoolloop
@@ -270,3 +326,17 @@
   href: files/tallyfy.ico
 - name: tallyfy
   href: files/tallyfy.icns
+
+- name: toggl
+  href: files/toggl.png
+- name: toggl
+  href: files/toggl.ico
+- name: toggl
+  href: files/toggl.icns
+
+- name: regexr
+  href: files/regexr.png
+- name: regexr
+  href: files/regexr.ico
+- name: regexr
+  href: files/regexr.icns
