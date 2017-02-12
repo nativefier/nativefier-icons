@@ -159,6 +159,13 @@
 - name: messenger
   href: files/messenger.icns
 
+- name: microsoft-azure
+  href: files/microsoft-azure.png
+- name: microsoft-azure
+  href: files/microsoft-azure.ico
+- name: microsoft-azure
+  href: files/microsoft-azure.icns
+
 - name: pinterest
   href: files/pinterest.png
 - name: pinterest
