@@ -320,6 +320,13 @@
 - name: schoolloop
   href: files/schoolloop.icns
 
+- name: tallyfy
+  href: files/tallyfy.png
+- name: tallyfy
+  href: files/tallyfy.ico
+- name: tallyfy
+  href: files/tallyfy.icns
+
 - name: toggl
   href: files/toggl.png
 - name: toggl
