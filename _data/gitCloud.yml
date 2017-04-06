@@ -138,6 +138,13 @@
 - name: ifttt
   href: files/ifttt.icns
 
+- name: instapaper
+  href: files/instapaper.png
+- name: instapaper
+  href: files/instapaper.ico
+- name: instapaper
+  href: files/instapaper.icns
+
 - name: jira
   href: files/jira.png
 - name: jira
