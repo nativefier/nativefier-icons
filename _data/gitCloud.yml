@@ -19,6 +19,13 @@
 - name: devdocs
   href: files/devdocs.icns
 
+- name: drive
+  href: files/drive.png
+- name: drive
+  href: files/drive.ico
+- name: drive
+  href: files/drive.icns
+
 - name: dropbox
   href: files/dropbox.png
 - name: dropbox
@@ -130,6 +137,13 @@
   href: files/groupme.ico
 - name: groupme
   href: files/groupme.icns
+
+- name: hangouts
+  href: files/Hangouts.png
+- name: hangouts
+  href: files/Hangouts.ico
+- name: hangouts
+  href: files/Hangouts.icns
 
 - name: ifttt
   href: files/ifttt.png
