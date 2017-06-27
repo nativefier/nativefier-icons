@@ -75,6 +75,13 @@
 - name: gmail
   href: files/gmail.icns
 
+- name: google
+  href: files/google.png
+- name: google
+  href: files/google.ico
+- name: google
+  href: files/google.icns
+
 - name: google-calendar
   href: files/google-calendar.png
 - name: google-calendar
