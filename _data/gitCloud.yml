@@ -187,6 +187,13 @@
 - name: microsoft-azure
   href: files/microsoft-azure.icns
 
+- name: pandora
+  href: files/pandora.png
+- name: pandora
+  href: files/pandora.ico
+- name: pandora
+  href: files/pandora.icns
+
 - name: pinterest
   href: files/pinterest.png
 - name: pinterest
