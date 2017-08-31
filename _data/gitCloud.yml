@@ -124,6 +124,13 @@
 - name: google-photos
   href: files/google-photos.icns
 
+- name: google-sheets
+  href: files/google-sheets.png
+- name: google-sheets
+  href: files/google-sheets.ico
+- name: google-sheets
+  href: files/google-sheets.icns
+
 - name: groupme
   href: files/groupme.png
 - name: groupme
