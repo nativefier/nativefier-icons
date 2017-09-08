@@ -12,6 +12,13 @@
 - name: basecamp
   href: files/basecamp.icns
 
+- name: connectwise
+  href: files/connectwise.png
+- name: connectwise
+  href: files/connectwise.ico
+- name: connectwise
+  href: files/connectwise.icns
+
 - name: devdocs
   href: files/devdocs.png
 - name: devdocs
@@ -186,6 +193,13 @@
   href: files/microsoft-azure.ico
 - name: microsoft-azure
   href: files/microsoft-azure.icns
+
+- name: passwordstate
+  href: files/passwordstate.png
+- name: passwordstate
+  href: files/passwordstate.ico
+- name: passwordstate
+  href: files/passwordstate.icns
 
 - name: pinterest
   href: files/pinterest.png
