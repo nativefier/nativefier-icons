@@ -110,6 +110,13 @@
 - name: google-keep
   href: files/google-keep.icns
 
+- name: google-meet
+  href: files/google-meet.png
+- name: google-meet
+  href: files/google-meet.ico
+- name: google-meet
+  href: files/google-meet.icns
+
 - name: google-play-music
   href: files/google-play-music.png
 - name: google-play-music
@@ -123,6 +130,13 @@
   href: files/google-photos.ico
 - name: google-photos
   href: files/google-photos.icns
+
+- name: google-voice
+  href: files/google-voice.png
+- name: google-voice
+  href: files/google-voice.ico
+- name: google-voice
+  href: files/google-voice.icns
 
 - name: groupme
   href: files/groupme.png
