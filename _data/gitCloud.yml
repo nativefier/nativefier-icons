@@ -5,6 +5,13 @@
 - name: asana
   href: files/asana.icns
 
+- name: ausmed
+  href: files/ausmed.png
+- name: ausmed
+  href: files/ausmed.ico
+- name: ausmed
+  href: files/ausmed.icns
+
 - name: basecamp
   href: files/basecamp.png
 - name: basecamp
