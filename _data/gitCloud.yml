@@ -82,6 +82,13 @@
 - name: google
   href: files/google.icns
 
+- name: google-allo
+  href: files/google-allo.png
+- name: google-allo
+  href: files/google-allo.ico
+- name: google-allo
+  href: files/google-allo.icns
+
 - name: google-calendar
   href: files/google-calendar.png
 - name: google-calendar
