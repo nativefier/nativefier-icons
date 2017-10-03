@@ -215,6 +215,13 @@
 - name: microsoft-azure
   href: files/microsoft-azure.icns
 
+- name: nirvanahq
+  href: files/nirvanahq.png
+- name: nirvanahq
+  href: files/nirvanahq.ico
+- name: nirvanahq
+  href: files/nirvanahq.icns
+  
 - name: pinterest
   href: files/pinterest.png
 - name: pinterest
