@@ -75,12 +75,26 @@
 - name: gmail
   href: files/gmail.icns
 
+- name: google
+  href: files/google.png
+- name: google
+  href: files/google.ico
+- name: google
+  href: files/google.icns
+
 - name: google-calendar
   href: files/google-calendar.png
 - name: google-calendar
   href: files/google-calendar.ico
 - name: google-calendar
   href: files/google-calendar.icns
+
+- name: google-docs
+  href: files/google-docs.png
+- name: google-docs
+  href: files/google-docs.ico
+- name: google-docs
+  href: files/google-docs.icns
 
 - name: google-drive
   href: files/google-drive.png
@@ -123,6 +137,20 @@
   href: files/google-photos.ico
 - name: google-photos
   href: files/google-photos.icns
+
+- name: google-sheets
+  href: files/google-sheets.png
+- name: google-sheets
+  href: files/google-sheets.ico
+- name: google-sheets
+  href: files/google-sheets.icns
+
+- name: google-slides
+  href: files/google-slides.png
+- name: google-slides
+  href: files/google-slides.ico
+- name: google-slides
+  href: files/google-slides.icns
 
 - name: groupme
   href: files/groupme.png
