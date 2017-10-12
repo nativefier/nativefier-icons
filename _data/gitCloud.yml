@@ -19,6 +19,13 @@
 - name: basecamp
   href: files/basecamp.icns
 
+- name: crunchyroll
+  href: files/crunchyroll.png
+- name: crunchyroll
+  href: files/crunchyroll.ico
+- name: crunchyroll
+  href: files/crunchyroll.icns
+
 - name: devdocs
   href: files/devdocs.png
 - name: devdocs
@@ -249,7 +256,7 @@
   href: files/nirvanahq.ico
 - name: nirvanahq
   href: files/nirvanahq.icns
-  
+
 - name: pandora
   href: files/pandora.png
 - name: pandora
