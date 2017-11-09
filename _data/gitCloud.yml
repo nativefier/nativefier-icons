@@ -189,9 +189,9 @@
 
 - name: hipchat
   href: files/hipchat.png
-- name: ifttt
+- name: hipchat
   href: files/hipchat.ico
-- name: ifttt
+- name: hipchat
   href: files/hipchat.icns
 
 - name: ifttt
@@ -203,9 +203,9 @@
 
 - name: iheartradio
   href: files/iheartradio.png
-- name: ifttt
+- name: iheartradio
   href: files/iheartradio.ico
-- name: ifttt
+- name: iheartradio
   href: files/iheartradio.icns
 
 - name: instapaper
@@ -263,7 +263,7 @@
   href: files/nirvanahq.ico
 - name: nirvanahq
   href: files/nirvanahq.icns
-  
+
 - name: pandora
   href: files/pandora.png
 - name: pandora
