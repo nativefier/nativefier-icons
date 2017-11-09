@@ -187,12 +187,26 @@
 - name: groupme
   href: files/groupme.icns
 
+- name: hipchat
+  href: files/hipchat.png
+- name: ifttt
+  href: files/hipchat.ico
+- name: ifttt
+  href: files/hipchat.icns
+
 - name: ifttt
   href: files/ifttt.png
 - name: ifttt
   href: files/ifttt.ico
 - name: ifttt
   href: files/ifttt.icns
+
+- name: iheartradio
+  href: files/iheartradio.png
+- name: ifttt
+  href: files/iheartradio.ico
+- name: ifttt
+  href: files/iheartradio.icns
 
 - name: instapaper
   href: files/instapaper.png
