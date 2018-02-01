@@ -249,7 +249,7 @@
   href: files/nirvanahq.ico
 - name: nirvanahq
   href: files/nirvanahq.icns
-  
+
 - name: pandora
   href: files/pandora.png
 - name: pandora
@@ -312,6 +312,13 @@
   href: files/soundcloud.ico
 - name: soundcloud
   href: files/soundcloud.icns
+
+- name: teamgantt
+  href: files/teamgantt.png
+- name: teamgantt
+  href: files/teamgantt.ico
+- name: teamgantt
+  href: files/teamgantt.icns
 
 - name: thelounge
   href: files/thelounge.png
