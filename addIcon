@@ -9,15 +9,32 @@
 # ./addIcon ~/Desktop/facebook.png
 
 ## Dependencies
-
 # imagemagick, svg2png
 
 set -e
 
+function missing_svg2png() {
+    echo >&2 "$1
+Please install from https://github.com/domenic/svg2png or using:
+
+    npm install -g svg2png
+"
+}
+
 # Exec Paths
 type convert >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Convert executable"; exit 1; }
 type identify >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Identify executable"; exit 1; }
-type svg2png >/dev/null 2>&1 || { echo >&2 "Cannot find required svg2png executable"; exit 1; }
+type svg2png >/dev/null 2>&1 || { missing_svg2png "Cannot find required svg2png executable"; exit 1; }
+
+# Check correct svg2png
+svg2pgn_type=$(svg2png --help | head -n 1)
+svg2pgn_version=$(svg2png --version)
+svg2pgn_location=$(which svg2png)
+
+if [ "$svg2pgn_type" != "Converts SVGs to PNGs, using PhantomJS" ]; then
+    missing_svg2png "Incorrect version of svn2png (v$svg2pgn_version installed in $svg2pgn_location)."
+    exit 1
+fi
 
 CONVERT_TO_ICNS="${BASH_SOURCE%/*}/bin/convertToIcns"
 CONVERT_TO_ICO="${BASH_SOURCE%/*}/bin/convertToIco"
