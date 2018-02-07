@@ -249,7 +249,7 @@
   href: files/nirvanahq.ico
 - name: nirvanahq
   href: files/nirvanahq.icns
-  
+
 - name: pandora
   href: files/pandora.png
 - name: pandora
@@ -263,6 +263,13 @@
   href: files/pinterest.ico
 - name: pinterest
   href: files/pinterest.icns
+
+- name: pivotaltracker
+  href: files/pivotaltracker.png
+- name: pivotaltracker
+  href: files/pivotaltracker.ico
+- name: pivotaltracker
+  href: files/pivotaltracker.icns
 
 - name: pocketcasts
   href: files/pocketcasts.png
