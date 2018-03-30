@@ -47,6 +47,13 @@
 - name: dropbox
   href: files/dropbox.icns
 
+- name: dropbox-paper
+  href: files/dropbox-paper.png
+- name: dropbox-paper
+  href: files/dropbox-paper.ico
+- name: dropbox-paper
+  href: files/dropbox-paper.icns
+
 - name: duckduckgo
   href: files/duckduckgo.png
 - name: duckduckgo
