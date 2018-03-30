@@ -383,6 +383,13 @@
 - name: twitter
   href: files/twitter.icns
 
+- name: waffle
+  href: files/waffle.png
+- name: waffle
+  href: files/waffle.ico
+- name: waffle
+  href: files/waffle.icns
+
 - name: whatsapp
   href: files/whatsapp.png
 - name: whatsapp
