@@ -54,6 +54,13 @@
 - name: fastmail
   href: files/fastmail.ico
 
+- name: feedly
+  href: files/feedly.png
+- name: feedly
+  href: files/feedly.ico
+- name: feedly
+  href: files/feedly.icns
+
 - name: github
   href: files/github.png
 - name: github
@@ -215,6 +222,13 @@
 - name: jsfiddle
   href: files/jsfiddle.icns
 
+- name: ing
+  href: files/ing.png
+- name: ing
+  href: files/ing.ico
+- name: ing
+  href: files/ing.icns
+
 - name: instagram
   href: files/instagram.png
 - name: instagram
@@ -263,6 +277,13 @@
   href: files/pinterest.ico
 - name: pinterest
   href: files/pinterest.icns
+
+- name: pocket
+  href: files/pocket.png
+- name: pocket
+  href: files/pocket.ico
+- name: pocket
+  href: files/pocket.icns
 
 - name: pocketcasts
   href: files/pocketcasts.png
@@ -424,21 +445,3 @@
   href: files/microsoft-todo.ico
 - name: microsoft-todo
   href: files/microsoft-todo.icns
-- name: pocket
-  href: files/pocket.png
-- name: pocket
-  href: files/pocket.ico
-- name: pocket
-  href: files/pocket.icns
-- name: feedly
-  href: files/feedly.png
-- name: feedly
-  href: files/feedly.ico
-- name: feedly
-  href: files/feedly.icns
-- name: ing
-  href: files/ing.png
-- name: ing
-  href: files/ing.ico
-- name: ing
-  href: files/ing.icns
