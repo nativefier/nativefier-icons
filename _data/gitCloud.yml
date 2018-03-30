@@ -425,9 +425,9 @@
 - name: microsoft-todo
   href: files/microsoft-todo.icns
 
-  - name: quire
+- name: quire
   href: files/quire.png
-- name: microsoft-todo
+- name: quire
   href: files/quire.ico
-- name: microsoft-todo
+- name: quire
   href: files/quire.icns
