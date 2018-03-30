@@ -299,6 +299,13 @@
 - name: pinterest
   href: files/pinterest.icns
 
+- name: pivotaltracker
+  href: files/pivotaltracker.png
+- name: pivotaltracker
+  href: files/pivotaltracker.ico
+- name: pivotaltracker
+  href: files/pivotaltracker.icns
+
 - name: pocketcasts
   href: files/pocketcasts.png
 - name: pocketcasts
