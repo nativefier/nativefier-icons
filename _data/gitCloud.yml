@@ -348,6 +348,13 @@
 - name: soundcloud
   href: files/soundcloud.icns
 
+- name: teamgantt
+  href: files/teamgantt.png
+- name: teamgantt
+  href: files/teamgantt.ico
+- name: teamgantt
+  href: files/teamgantt.icns
+
 - name: thelounge
   href: files/thelounge.png
 - name: thelounge
