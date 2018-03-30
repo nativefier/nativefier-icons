@@ -42,7 +42,7 @@ google-photos.icns
 
 ### Step 2
 
-Add an entry for the file to `./data/gitCloud.yml`, in alphabetical order
+Add an entry for the file to `./_data/gitCloud.yml`, in alphabetical order
 
 ```yml
 - name: google-photos

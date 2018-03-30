@@ -19,6 +19,20 @@
 - name: basecamp
   href: files/basecamp.icns
 
+- name: connectwise
+  href: files/connectwise.png
+- name: connectwise
+  href: files/connectwise.ico
+- name: connectwise
+  href: files/connectwise.icns
+
+- name: crunchyroll
+  href: files/crunchyroll.png
+- name: crunchyroll
+  href: files/crunchyroll.ico
+- name: crunchyroll
+  href: files/crunchyroll.icns
+
 - name: devdocs
   href: files/devdocs.png
 - name: devdocs
@@ -32,6 +46,13 @@
   href: files/dropbox.ico
 - name: dropbox
   href: files/dropbox.icns
+
+- name: dropbox-paper
+  href: files/dropbox-paper.png
+- name: dropbox-paper
+  href: files/dropbox-paper.ico
+- name: dropbox-paper
+  href: files/dropbox-paper.icns
 
 - name: duckduckgo
   href: files/duckduckgo.png
@@ -187,12 +208,26 @@
 - name: groupme
   href: files/groupme.icns
 
+- name: hipchat
+  href: files/hipchat.png
+- name: hipchat
+  href: files/hipchat.ico
+- name: hipchat
+  href: files/hipchat.icns
+
 - name: ifttt
   href: files/ifttt.png
 - name: ifttt
   href: files/ifttt.ico
 - name: ifttt
   href: files/ifttt.icns
+
+- name: iheartradio
+  href: files/iheartradio.png
+- name: iheartradio
+  href: files/iheartradio.ico
+- name: iheartradio
+  href: files/iheartradio.icns
 
 - name: instapaper
   href: files/instapaper.png
@@ -243,13 +278,20 @@
 - name: microsoft-azure
   href: files/microsoft-azure.icns
 
+- name: passwordstate
+  href: files/passwordstate.png
+- name: passwordstate
+  href: files/passwordstate.ico
+- name: passwordstate
+  href: files/passwordstate.icns
+
 - name: nirvanahq
   href: files/nirvanahq.png
 - name: nirvanahq
   href: files/nirvanahq.ico
 - name: nirvanahq
   href: files/nirvanahq.icns
-  
+
 - name: pandora
   href: files/pandora.png
 - name: pandora
@@ -263,6 +305,13 @@
   href: files/pinterest.ico
 - name: pinterest
   href: files/pinterest.icns
+
+- name: pivotaltracker
+  href: files/pivotaltracker.png
+- name: pivotaltracker
+  href: files/pivotaltracker.ico
+- name: pivotaltracker
+  href: files/pivotaltracker.icns
 
 - name: pocketcasts
   href: files/pocketcasts.png
@@ -313,6 +362,13 @@
 - name: soundcloud
   href: files/soundcloud.icns
 
+- name: teamgantt
+  href: files/teamgantt.png
+- name: teamgantt
+  href: files/teamgantt.ico
+- name: teamgantt
+  href: files/teamgantt.icns
+
 - name: thelounge
   href: files/thelounge.png
 - name: thelounge
@@ -347,6 +403,13 @@
   href: files/twitter.ico
 - name: twitter
   href: files/twitter.icns
+
+- name: waffle
+  href: files/waffle.png
+- name: waffle
+  href: files/waffle.ico
+- name: waffle
+  href: files/waffle.icns
 
 - name: whatsapp
   href: files/whatsapp.png
@@ -431,3 +494,10 @@
   href: files/quire.ico
 - name: quire
   href: files/quire.icns
+
+- name: netflix
+  href: files/netflix.png
+- name: netflix
+  href: files/netflix.ico
+- name: netflix
+  href: files/netflix.icns
