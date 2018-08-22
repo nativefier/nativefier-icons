@@ -487,9 +487,17 @@
   href: files/microsoft-todo.ico
 - name: microsoft-todo
   href: files/microsoft-todo.icns
+
 - name: netflix
   href: files/netflix.png
 - name: netflix
   href: files/netflix.ico
 - name: netflix
   href: files/netflix.icns
+
+- name: todoist
+  href: files/todoist.png
+- name: todoist
+  href: files/todoist.icns
+- name: todoist
+  href: files/todoist.ico
