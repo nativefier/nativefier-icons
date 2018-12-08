@@ -1,3 +1,8 @@
+- name: android-messages
+  href: files/android-messages.png
+- name: android-messages
+  href: files/android-messages.ico
+
 - name: asana
   href: files/asana.png
 - name: asana
