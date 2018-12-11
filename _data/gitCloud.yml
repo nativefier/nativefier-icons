@@ -187,6 +187,13 @@
 - name: google-meet
   href: files/google-meet.icns
 
+ - name: google-messages
+  href: files/google-messages.png
+- name: google-messages
+  href: files/google-messages.ico
+- name: google-messages
+  href: files/google-messages.icns
+
 - name: google-play-music
   href: files/google-play-music.png
 - name: google-play-music
