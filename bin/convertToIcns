@@ -1,25 +1,26 @@
 #!/bin/sh
 
-### USAGE
+# USAGE
+# =====
+# ./convertToIcns <input.svg or input.png> <output.icns>
+# Example:
+# ./convertToIcns ~/icon.png ~/Desktop/icon_converted.icns
 
-# ./convertToIcns <input png> <outp icns>
-# Example
-# ./convertToIcns ~/sample.png ~/Desktop/converted.icns
-
-# exit the shell script on error immediately
+# Exit the shell script on error immediately
 set -e
 
-# import script as variable
-CONVERT_TO_PNG="${BASH_SOURCE%/*}/convertToPng"
-
-type convert >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Convert executable"; exit 1; }
+# Check for dependency
+# iconutil
 type iconutil >/dev/null 2>&1 || { echo >&2 "Cannot find required iconutil executable"; exit 1; }
 
-# Parameters
+# Import script as variable
+CONVERT_TO_PNG="${BASH_SOURCE%/*}/convertToPng"
+
+# Arguments
 SOURCE=$1
 DEST=$2
 
-# Check source and destination arguments
+# Check arguments
 if [ -z "${SOURCE}" ]; then
 	echo "No source image specified"
 	exit 1
@@ -30,40 +31,38 @@ if [ -z "${DEST}" ]; then
 	exit 1
 fi
 
-# File Infrastructure
-NAME=$(basename "${SOURCE}")
-EXT="${NAME##*.}"
-BASE="${NAME%.*}"
-TEMP_DIR="temp_icon"
-ICONSET="${BASE}.iconset"
+# File variables
+SOURCE_NAME=$(basename "${SOURCE}")
+SOURCE_EXT="${SOURCE_NAME##*.}"
+SOURCE_BASE="${SOURCE_NAME%.*}"
+ICONSET="${SOURCE_BASE}.iconset"
 
+# Temp directory
+TEMP_DIR=".convertToIcns"
+mkdir -p "${TEMP_DIR}/${ICONSET}"
+
+# Cleanup
 function cleanUp() {
-    rm -rf "${TEMP_DIR}"
-    rm -rf "${ICONSET}"
+	rm -rf "${TEMP_DIR}"
 }
-
 trap cleanUp EXIT
 
-mkdir -p "${TEMP_DIR}"
-mkdir -p "${ICONSET}"
+# Check for file type
+if [ "${SOURCE_EXT}" == "svg" ] || [ "${SOURCE_EXT}" == "png" ]; then
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_16x16.png" 16
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_16x16@2x.png" 32
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_32x32.png" 32
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_32x32@2x.png" 64
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_128x128.png" 128
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_128x128@2x.png" 256
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_256x256.png" 256
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_256x256@2x.png" 512
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_512x512.png" 512
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${ICONSET}/icon_512x512@2x.png" 1024
+else
+	echo "SVG or PNG must be provided"
+	exit 1
+fi
 
-PNG_PATH="${TEMP_DIR}/icon.png"
-${CONVERT_TO_PNG} "${SOURCE}" "${PNG_PATH}"
-
-# Resample image into iconset
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 16x16 "${ICONSET}/icon_16x16.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 32x32 "${ICONSET}/icon_16x16@2x.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 32x32 "${ICONSET}/icon_32x32.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 64x64 "${ICONSET}/icon_32x32@2x.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 128x128 "${ICONSET}/icon_128x128.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 256x256 "${ICONSET}/icon_128x128@2x.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 256x256 "${ICONSET}/icon_256x256.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 512x512 "${ICONSET}/icon_256x256@2x.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 512x512 "${ICONSET}/icon_512x512.png"
-convert "${PNG_PATH}" -define png:big-depth=16 -define png:color-type=6 -sample 1024x1024 "${ICONSET}/icon_512x512@2x.png"
-
-# Create an icns file lefrom the iconset
-iconutil -c icns "${ICONSET}" -o "${DEST}"
-
-trap - EXIT
-cleanUp
+# Create an icns file from the iconset
+iconutil -c icns "${TEMP_DIR}/${ICONSET}" -o "${DEST}"
