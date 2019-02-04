@@ -564,3 +564,10 @@
   href: files/youtube.ico
 - name: youtube
   href: files/youtube.icns
+
+- name: youtube-music
+  href: files/youtube-music.png
+- name: youtube-music
+  href: files/youtube-music.ico
+- name: youtube-music
+  href: files/youtube-music.icns
