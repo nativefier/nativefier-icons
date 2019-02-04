@@ -508,3 +508,10 @@
   href: files/netflix.ico
 - name: netflix
   href: files/netflix.icns
+
+- name: todoist
+  href: files/todoist.png
+- name: todoist
+  href: files/todoist.icns
+- name: todoist
+  href: files/todoist.ico
