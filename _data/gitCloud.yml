@@ -82,6 +82,13 @@
 - name: fastmail
   href: files/fastmail.ico
 
+- name: feedly
+  href: files/feedly.png
+- name: feedly
+  href: files/feedly.icns
+- name: feedly
+  href: files/feedly.ico
+
 - name: github
   href: files/github.png
 - name: github
