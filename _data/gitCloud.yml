@@ -5,12 +5,40 @@
 - name: asana
   href: files/asana.icns
 
+- name: ausmed
+  href: files/ausmed.png
+- name: ausmed
+  href: files/ausmed.ico
+- name: ausmed
+  href: files/ausmed.icns
+
+- name: aws-cloud9
+  href: files/aws-cloud9.png
+- name: aws-cloud9
+  href: files/aws-cloud9.ico
+- name: aws-cloud9
+  href: files/aws-cloud9.icns
+
 - name: basecamp
   href: files/basecamp.png
 - name: basecamp
   href: files/basecamp.ico
 - name: basecamp
   href: files/basecamp.icns
+
+- name: connectwise
+  href: files/connectwise.png
+- name: connectwise
+  href: files/connectwise.ico
+- name: connectwise
+  href: files/connectwise.icns
+
+- name: crunchyroll
+  href: files/crunchyroll.png
+- name: crunchyroll
+  href: files/crunchyroll.ico
+- name: crunchyroll
+  href: files/crunchyroll.icns
 
 - name: devdocs
   href: files/devdocs.png
@@ -19,12 +47,26 @@
 - name: devdocs
   href: files/devdocs.icns
 
+- name: diaro
+  href: files/diaro.png
+- name: diaro
+  href: files/diaro.ico
+- name: diaro
+  href: files/diaro.icns
+
 - name: dropbox
   href: files/dropbox.png
 - name: dropbox
   href: files/dropbox.ico
 - name: dropbox
   href: files/dropbox.icns
+
+- name: dropbox-paper
+  href: files/dropbox-paper.png
+- name: dropbox-paper
+  href: files/dropbox-paper.ico
+- name: dropbox-paper
+  href: files/dropbox-paper.icns
 
 - name: duckduckgo
   href: files/duckduckgo.png
@@ -47,12 +89,12 @@
 - name: fastmail
   href: files/fastmail.ico
 
-- name: github
-  href: files/github.png
-- name: github
-  href: files/github.ico
-- name: github
-  href: files/github.icns
+- name: feedly
+  href: files/feedly.png
+- name: feedly
+  href: files/feedly.icns
+- name: feedly
+  href: files/feedly.ico
 
 - name: github
   href: files/github.png
@@ -60,6 +102,13 @@
   href: files/github.ico
 - name: github
   href: files/github.icns
+
+- name: gitlab
+  href: files/gitlab.png
+- name: gitlab
+  href: files/gitlab.ico
+- name: gitlab
+  href: files/gitlab.icns
 
 - name: gitter
   href: files/gitter.png
@@ -75,12 +124,33 @@
 - name: gmail
   href: files/gmail.icns
 
+- name: google
+  href: files/google.png
+- name: google
+  href: files/google.ico
+- name: google
+  href: files/google.icns
+
+- name: google-allo
+  href: files/google-allo.png
+- name: google-allo
+  href: files/google-allo.ico
+- name: google-allo
+  href: files/google-allo.icns
+
 - name: google-calendar
   href: files/google-calendar.png
 - name: google-calendar
   href: files/google-calendar.ico
 - name: google-calendar
   href: files/google-calendar.icns
+
+- name: google-docs
+  href: files/google-docs.png
+- name: google-docs
+  href: files/google-docs.ico
+- name: google-docs
+  href: files/google-docs.icns
 
 - name: google-drive
   href: files/google-drive.png
@@ -110,6 +180,13 @@
 - name: google-keep
   href: files/google-keep.icns
 
+- name: google-meet
+  href: files/google-meet.png
+- name: google-meet
+  href: files/google-meet.ico
+- name: google-meet
+  href: files/google-meet.icns
+
 - name: google-play-music
   href: files/google-play-music.png
 - name: google-play-music
@@ -124,6 +201,27 @@
 - name: google-photos
   href: files/google-photos.icns
 
+- name: google-sheets
+  href: files/google-sheets.png
+- name: google-sheets
+  href: files/google-sheets.ico
+- name: google-sheets
+  href: files/google-sheets.icns
+
+- name: google-slides
+  href: files/google-slides.png
+- name: google-slides
+  href: files/google-slides.ico
+- name: google-slides
+  href: files/google-slides.icns
+
+- name: google-voice
+  href: files/google-voice.png
+- name: google-voice
+  href: files/google-voice.ico
+- name: google-voice
+  href: files/google-voice.icns
+
 - name: groupme
   href: files/groupme.png
 - name: groupme
@@ -131,12 +229,26 @@
 - name: groupme
   href: files/groupme.icns
 
+- name: hipchat
+  href: files/hipchat.png
+- name: hipchat
+  href: files/hipchat.ico
+- name: hipchat
+  href: files/hipchat.icns
+
 - name: ifttt
   href: files/ifttt.png
 - name: ifttt
   href: files/ifttt.ico
 - name: ifttt
   href: files/ifttt.icns
+
+- name: iheartradio
+  href: files/iheartradio.png
+- name: iheartradio
+  href: files/iheartradio.ico
+- name: iheartradio
+  href: files/iheartradio.icns
 
 - name: instapaper
   href: files/instapaper.png
@@ -187,12 +299,40 @@
 - name: microsoft-azure
   href: files/microsoft-azure.icns
 
+- name: passwordstate
+  href: files/passwordstate.png
+- name: passwordstate
+  href: files/passwordstate.ico
+- name: passwordstate
+  href: files/passwordstate.icns
+
+- name: nirvanahq
+  href: files/nirvanahq.png
+- name: nirvanahq
+  href: files/nirvanahq.ico
+- name: nirvanahq
+  href: files/nirvanahq.icns
+
+- name: pandora
+  href: files/pandora.png
+- name: pandora
+  href: files/pandora.ico
+- name: pandora
+  href: files/pandora.icns
+
 - name: pinterest
   href: files/pinterest.png
 - name: pinterest
   href: files/pinterest.ico
 - name: pinterest
   href: files/pinterest.icns
+
+- name: pivotaltracker
+  href: files/pivotaltracker.png
+- name: pivotaltracker
+  href: files/pivotaltracker.ico
+- name: pivotaltracker
+  href: files/pivotaltracker.icns
 
 - name: pocketcasts
   href: files/pocketcasts.png
@@ -243,6 +383,13 @@
 - name: soundcloud
   href: files/soundcloud.icns
 
+- name: teamgantt
+  href: files/teamgantt.png
+- name: teamgantt
+  href: files/teamgantt.ico
+- name: teamgantt
+  href: files/teamgantt.icns
+
 - name: thelounge
   href: files/thelounge.png
 - name: thelounge
@@ -277,6 +424,13 @@
   href: files/twitter.ico
 - name: twitter
   href: files/twitter.icns
+
+- name: waffle
+  href: files/waffle.png
+- name: waffle
+  href: files/waffle.ico
+- name: waffle
+  href: files/waffle.icns
 
 - name: whatsapp
   href: files/whatsapp.png
@@ -361,3 +515,25 @@
   href: files/untappd.ico
 - name: untappd
   href: files/untappd.icns
+
+- name: quire
+  href: files/quire.png
+- name: quire
+  href: files/quire.ico
+- name: quire
+  href: files/quire.icns
+
+- name: netflix
+  href: files/netflix.png
+- name: netflix
+  href: files/netflix.ico
+- name: netflix
+  href: files/netflix.icns
+
+- name: todoist
+  href: files/todoist.png
+- name: todoist
+  href: files/todoist.icns
+- name: todoist
+  href: files/todoist.ico
+  
