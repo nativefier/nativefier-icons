@@ -40,6 +40,13 @@
 - name: devdocs
   href: files/devdocs.icns
 
+- name: diaro
+  href: files/diaro.png
+- name: diaro
+  href: files/diaro.ico
+- name: diaro
+  href: files/diaro.icns
+
 - name: dropbox
   href: files/dropbox.png
 - name: dropbox
