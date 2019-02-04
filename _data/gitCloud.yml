@@ -12,6 +12,13 @@
 - name: ausmed
   href: files/ausmed.icns
 
+- name: aws-cloud9
+  href: files/aws-cloud9.png
+- name: aws-cloud9
+  href: files/aws-cloud9.ico
+- name: aws-cloud9
+  href: files/aws-cloud9.icns
+
 - name: basecamp
   href: files/basecamp.png
 - name: basecamp
