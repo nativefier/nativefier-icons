@@ -487,6 +487,14 @@
   href: files/microsoft-todo.ico
 - name: microsoft-todo
   href: files/microsoft-todo.icns
+
+- name: quire
+  href: files/quire.png
+- name: quire
+  href: files/quire.ico
+- name: quire
+  href: files/quire.icns
+
 - name: netflix
   href: files/netflix.png
 - name: netflix
