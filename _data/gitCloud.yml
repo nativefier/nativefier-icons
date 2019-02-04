@@ -82,12 +82,12 @@
 - name: github
   href: files/github.icns
 
-- name: github
-  href: files/github.png
-- name: github
-  href: files/github.ico
-- name: github
-  href: files/github.icns
+- name: gitlab
+  href: files/gitlab.png
+- name: gitlab
+  href: files/gitlab.ico
+- name: gitlab
+  href: files/gitlab.icns
 
 - name: gitter
   href: files/gitter.png
