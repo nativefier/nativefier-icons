@@ -187,19 +187,12 @@
 - name: google-meet
   href: files/google-meet.icns
 
- - name: google-messages
+- name: google-messages
   href: files/google-messages.png
 - name: google-messages
   href: files/google-messages.ico
 - name: google-messages
   href: files/google-messages.icns
-
-- name: google-play-music
-  href: files/google-play-music.png
-- name: google-play-music
-  href: files/google-play-music.ico
-- name: google-play-music
-  href: files/google-play-music.icns
 
 - name: google-photos
   href: files/google-photos.png
@@ -207,6 +200,13 @@
   href: files/google-photos.ico
 - name: google-photos
   href: files/google-photos.icns
+
+- name: google-play-music
+  href: files/google-play-music.png
+- name: google-play-music
+  href: files/google-play-music.ico
+- name: google-play-music
+  href: files/google-play-music.icns
 
 - name: google-sheets
   href: files/google-sheets.png
@@ -257,6 +257,13 @@
 - name: iheartradio
   href: files/iheartradio.icns
 
+- name: instagram
+  href: files/instagram.png
+- name: instagram
+  href: files/instagram.ico
+- name: instagram
+  href: files/instagram.icns
+
 - name: instapaper
   href: files/instapaper.png
 - name: instapaper
@@ -277,13 +284,6 @@
   href: files/jsfiddle.ico
 - name: jsfiddle
   href: files/jsfiddle.icns
-
-- name: instagram
-  href: files/instagram.png
-- name: instagram
-  href: files/instagram.ico
-- name: instagram
-  href: files/instagram.icns
 
 - name: medium
   href: files/medium.png
@@ -306,12 +306,19 @@
 - name: microsoft-azure
   href: files/microsoft-azure.icns
 
-- name: passwordstate
-  href: files/passwordstate.png
-- name: passwordstate
-  href: files/passwordstate.ico
-- name: passwordstate
-  href: files/passwordstate.icns
+- name: microsoft-todo
+  href: files/microsoft-todo.png
+- name: microsoft-todo
+  href: files/microsoft-todo.ico
+- name: microsoft-todo
+  href: files/microsoft-todo.icns
+
+- name: netflix
+  href: files/netflix.png
+- name: netflix
+  href: files/netflix.ico
+- name: netflix
+  href: files/netflix.icns
 
 - name: nirvanahq
   href: files/nirvanahq.png
@@ -319,6 +326,13 @@
   href: files/nirvanahq.ico
 - name: nirvanahq
   href: files/nirvanahq.icns
+
+- name: passwordstate
+  href: files/passwordstate.png
+- name: passwordstate
+  href: files/passwordstate.ico
+- name: passwordstate
+  href: files/passwordstate.icns
 
 - name: pandora
   href: files/pandora.png
@@ -355,6 +369,13 @@
 - name: producthunt
   href: files/producthunt.icns
 
+- name: quire
+  href: files/quire.png
+- name: quire
+  href: files/quire.ico
+- name: quire
+  href: files/quire.icns
+
 - name: rainwave
   href: files/rainwave.png
 - name: rainwave
@@ -368,6 +389,27 @@
   href: files/reddit.ico
 - name: reddit
   href: files/reddit.icns
+
+- name: regexr
+  href: files/regexr.png
+- name: regexr
+  href: files/regexr.ico
+- name: regexr
+  href: files/regexr.icns
+
+- name: salesforce
+  href: files/salesforce.png
+- name: salesforce
+  href: files/salesforce.ico
+- name: salesforce
+  href: files/salesforce.icns
+
+- name: schoolloop
+  href: files/schoolloop.png
+- name: schoolloop
+  href: files/schoolloop.ico
+- name: schoolloop
+  href: files/schoolloop.icns
 
 - name: slack
   href: files/slack.png
@@ -390,6 +432,13 @@
 - name: soundcloud
   href: files/soundcloud.icns
 
+- name: tallyfy
+  href: files/tallyfy.png
+- name: tallyfy
+  href: files/tallyfy.ico
+- name: tallyfy
+  href: files/tallyfy.icns
+
 - name: teamgantt
   href: files/teamgantt.png
 - name: teamgantt
@@ -403,6 +452,20 @@
   href: files/thelounge.ico
 - name: thelounge
   href: files/thelounge.icns
+
+- name: todoist
+  href: files/todoist.png
+- name: todoist
+  href: files/todoist.icns
+- name: todoist
+  href: files/todoist.ico
+
+- name: toggl
+  href: files/toggl.png
+- name: toggl
+  href: files/toggl.ico
+- name: toggl
+  href: files/toggl.icns
 
 - name: trello
   href: files/trello.png
@@ -460,6 +523,13 @@
 - name: workflowy
   href: files/workflowy.icns
 
+- name: untappd
+  href: files/untappd.png
+- name: untappd
+  href: files/untappd.ico
+- name: untappd
+  href: files/untappd.icns
+
 - name: ycombinator
   href: files/ycombinator.png
 - name: ycombinator
@@ -473,74 +543,3 @@
   href: files/youtube.ico
 - name: youtube
   href: files/youtube.icns
-
-- name: salesforce
-  href: files/salesforce.png
-- name: salesforce
-  href: files/salesforce.ico
-- name: salesforce
-  href: files/salesforce.icns
-
-- name: schoolloop
-  href: files/schoolloop.png
-- name: schoolloop
-  href: files/schoolloop.ico
-- name: schoolloop
-  href: files/schoolloop.icns
-
-- name: tallyfy
-  href: files/tallyfy.png
-- name: tallyfy
-  href: files/tallyfy.ico
-- name: tallyfy
-  href: files/tallyfy.icns
-
-- name: toggl
-  href: files/toggl.png
-- name: toggl
-  href: files/toggl.ico
-- name: toggl
-  href: files/toggl.icns
-
-- name: regexr
-  href: files/regexr.png
-- name: regexr
-  href: files/regexr.ico
-- name: regexr
-  href: files/regexr.icns
-
-- name: microsoft-todo
-  href: files/microsoft-todo.png
-- name: microsoft-todo
-  href: files/microsoft-todo.ico
-- name: microsoft-todo
-  href: files/microsoft-todo.icns
-
-- name: untappd
-  href: files/untappd.png
-- name: untappd
-  href: files/untappd.ico
-- name: untappd
-  href: files/untappd.icns
-
-- name: quire
-  href: files/quire.png
-- name: quire
-  href: files/quire.ico
-- name: quire
-  href: files/quire.icns
-
-- name: netflix
-  href: files/netflix.png
-- name: netflix
-  href: files/netflix.ico
-- name: netflix
-  href: files/netflix.icns
-
-- name: todoist
-  href: files/todoist.png
-- name: todoist
-  href: files/todoist.icns
-- name: todoist
-  href: files/todoist.ico
-  
