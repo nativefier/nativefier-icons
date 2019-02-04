@@ -509,6 +509,13 @@
 - name: microsoft-todo
   href: files/microsoft-todo.icns
 
+- name: untappd
+  href: files/untappd.png
+- name: untappd
+  href: files/untappd.ico
+- name: untappd
+  href: files/untappd.icns
+
 - name: quire
   href: files/quire.png
 - name: quire
@@ -529,3 +536,4 @@
   href: files/todoist.icns
 - name: todoist
   href: files/todoist.ico
+  
