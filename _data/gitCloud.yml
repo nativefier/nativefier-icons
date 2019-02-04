@@ -285,6 +285,20 @@
 - name: jsfiddle
   href: files/jsfiddle.icns
 
+- name: ing
+  href: files/ing.png
+- name: ing
+  href: files/ing.ico
+- name: ing
+  href: files/ing.icns
+
+- name: instagram
+  href: files/instagram.png
+- name: instagram
+  href: files/instagram.ico
+- name: instagram
+  href: files/instagram.icns
+
 - name: medium
   href: files/medium.png
 - name: medium
@@ -354,6 +368,13 @@
   href: files/pivotaltracker.ico
 - name: pivotaltracker
   href: files/pivotaltracker.icns
+
+- name: pocket
+  href: files/pocket.png
+- name: pocket
+  href: files/pocket.ico
+- name: pocket
+  href: files/pocket.icns
 
 - name: pocketcasts
   href: files/pocketcasts.png
