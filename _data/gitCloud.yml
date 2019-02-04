@@ -40,6 +40,13 @@
 - name: devdocs
   href: files/devdocs.icns
 
+- name: diaro
+  href: files/diaro.png
+- name: diaro
+  href: files/diaro.ico
+- name: diaro
+  href: files/diaro.icns
+
 - name: dropbox
   href: files/dropbox.png
 - name: dropbox
@@ -82,12 +89,12 @@
 - name: github
   href: files/github.icns
 
-- name: github
-  href: files/github.png
-- name: github
-  href: files/github.ico
-- name: github
-  href: files/github.icns
+- name: gitlab
+  href: files/gitlab.png
+- name: gitlab
+  href: files/gitlab.ico
+- name: gitlab
+  href: files/gitlab.icns
 
 - name: gitter
   href: files/gitter.png
@@ -487,6 +494,13 @@
   href: files/microsoft-todo.ico
 - name: microsoft-todo
   href: files/microsoft-todo.icns
+
+- name: quire
+  href: files/quire.png
+- name: quire
+  href: files/quire.ico
+- name: quire
+  href: files/quire.icns
 
 - name: netflix
   href: files/netflix.png
