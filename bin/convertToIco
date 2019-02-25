@@ -1,18 +1,27 @@
 #!/bin/sh
 
 # USAGE
+# =====
+# ./convertToIco <input.svg or input.png or input.ico> <output.ico> <square edge size (optional, defaults to 256 px)>
+# Example:
+# ./convertToIco ~/icon.png ~/Desktop/icon_converted.ico 16
 
-# ./convertToIco <input png or ico> <outfilename>.ico
-# Example
-# ./convertToPng ~/sample.png ~/converted.ico
-
+# Exit the shell script on error immediately
 set -e
 
+# Check for dependency
+# imagemagick
 type convert >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Convert executable"; exit 1; }
 
+# Import script as variable
+CONVERT_TO_PNG="${BASH_SOURCE%/*}/convertToPng"
+
+# Arguments
 SOURCE=$1
 DEST=$2
+SIZE=$3
 
+# Check arguments
 if [ -z "${SOURCE}" ]; then
 	echo "No source image specified"
 	exit 1
@@ -23,13 +32,34 @@ if [ -z "${DEST}" ]; then
 	exit 1
 fi
 
-NAME=$(basename "${SOURCE}")
-EXT="${NAME##*.}"
-BASE="${NAME%.*}"
-
-if [ "${EXT}" == "ico" ]; then
-    cp "${SOURCE}" "${DEST}"
-    exit 0
+if [ -z "${SIZE}" ]; then
+	# Set default size to 256 px
+	SIZE=256
 fi
 
-convert "${SOURCE}" -resize 256x256 "${DEST}"
+# File variables
+SOURCE_NAME=$(basename "${SOURCE}")
+SOURCE_EXT="${SOURCE_NAME##*.}"
+SOURCE_BASE="${SOURCE_NAME%.*}"
+
+# Temp directory
+TEMP_DIR=".convertToIco"
+mkdir -p "${TEMP_DIR}"
+
+# Cleanup
+function cleanUp() {
+	rm -rf "${TEMP_DIR}"
+}
+trap cleanUp EXIT
+
+# Check for file type
+if [ "${SOURCE_EXT}" == "ico" ]; then
+	cp "${SOURCE}" "${DEST}"
+	exit 0
+elif [ "${SOURCE_EXT}" == "svg" ] || [ "${SOURCE_EXT}" == "png" ]; then
+	${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${SOURCE_BASE}.png" "${SIZE}"
+	convert "${TEMP_DIR}/${SOURCE_BASE}.png" "${DEST}"
+else
+	echo "SVG, PNG or ICO must be provided"
+	exit 1
+fi

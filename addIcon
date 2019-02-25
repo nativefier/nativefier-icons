@@ -3,71 +3,70 @@
 # Will automatically convert and add the output properly to gitCloud
 
 # USAGE
-# ./addIcon <input png or svg>
+# =====
+# ./addIcon <input.svg or input.png>
+# Example:
+# ./addIcon ~/Desktop/icon.png
 
-# Example
-# ./addIcon ~/Desktop/facebook.png
-
-## Dependencies
-
-# imagemagick, svg2png
-
+# Exit the shell script on error immediately
 set -e
 
-# Exec Paths
+# Check for dependencies
+# imagemagick
 type convert >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Convert executable"; exit 1; }
-type identify >/dev/null 2>&1 || { echo >&2 "Cannot find required ImageMagick Identify executable"; exit 1; }
+# svg2png
 type svg2png >/dev/null 2>&1 || { echo >&2 "Cannot find required svg2png executable"; exit 1; }
+# iconutil
+type iconutil >/dev/null 2>&1 || { echo >&2 "Cannot find required iconutil executable"; exit 1; }
 
-CONVERT_TO_ICNS="${BASH_SOURCE%/*}/bin/convertToIcns"
+# Import scripts as variable
+CONVERT_TO_PNG="${BASH_SOURCE%/*}/bin/convertToPng"
 CONVERT_TO_ICO="${BASH_SOURCE%/*}/bin/convertToIco"
+CONVERT_TO_ICNS="${BASH_SOURCE%/*}/bin/convertToIcns"
 
-TEMP_DIR="convert_temp_hello"
-
-function cleanUp() {
-    rm -rf "${TEMP_DIR}"
-}
-
-trap cleanUp EXIT
-
-mkdir -p "${TEMP_DIR}"
-
+# Argument
 SOURCE=$1
 
+# Check argument
 if [ -z "${SOURCE}" ]; then
 	echo "No source image specified"
 	exit 1
 fi
 
-NAME=$(basename "${SOURCE}")
-EXT="${NAME##*.}"
-BASE="${NAME%.*}"
+# File variables
+SOURCE_NAME=$(basename "${SOURCE}")
+SOURCE_EXT="${SOURCE_NAME##*.}"
+SOURCE_BASE="${SOURCE_NAME%.*}"
 
-if [ "${EXT}" == "svg" ]; then
-    svg2png "${SOURCE}" "--output=${TEMP_DIR}/${BASE}.png" "--width=1024" "--height=1024"
-    SOURCE="${TEMP_DIR}/${BASE}.png"
+# Temp directory
+TEMP_DIR=".addIcon"
+mkdir -p "${TEMP_DIR}"
+
+# Cleanup
+function cleanUp() {
+	rm -rf "${TEMP_DIR}"
+}
+trap cleanUp EXIT
+
+# Check for file type
+if [ "${SOURCE_EXT}" == "svg" ] || [ "${SOURCE_EXT}" == "png" ]; then
+  ${CONVERT_TO_PNG} "${SOURCE}" "${TEMP_DIR}/${SOURCE_BASE}.png"
+  ${CONVERT_TO_ICO} "${TEMP_DIR}/${SOURCE_BASE}.png" "${TEMP_DIR}/${SOURCE_BASE}.ico"
+  ${CONVERT_TO_ICNS} "${SOURCE}" "${TEMP_DIR}/${SOURCE_BASE}.icns"
+
+  # Force exit 0 for cp so that if files are identical the script will still proceed to overwrite
+  cp "${TEMP_DIR}/${SOURCE_BASE}.png" "files/${SOURCE_BASE}.png" || :
+  cp "${TEMP_DIR}/${SOURCE_BASE}.ico" "files/${SOURCE_BASE}.ico" || :
+  cp "${TEMP_DIR}/${SOURCE_BASE}.icns" "files/${SOURCE_BASE}.icns" || :
+  
+  ## append to .gitCloud.yml
+  echo "- name: ${SOURCE_BASE}" >> _data/gitCloud.yml
+  echo "  href: files/${SOURCE_BASE}.png" >> _data/gitCloud.yml
+  echo "- name: ${SOURCE_BASE}" >> _data/gitCloud.yml
+  echo "  href: files/${SOURCE_BASE}.ico" >> _data/gitCloud.yml
+  echo "- name: ${SOURCE_BASE}" >> _data/gitCloud.yml
+  echo "  href: files/${SOURCE_BASE}.icns" >> _data/gitCloud.yml
+else
+	echo "SVG or PNG must be provided"
+	exit 1
 fi
-
-NAME=$(basename "${SOURCE}")
-EXT="${NAME##*.}"
-
-if [ "${EXT}" != "png" ]; then
-    echo ".png or .svg must be provided"
-    exit 1
-fi
-
-# Force exit 0 for cp so that if files are identical the script will still proceed to overwrite
-cp "${SOURCE}" "files/${BASE}.png" || :
-${CONVERT_TO_ICNS} "${SOURCE}" "files/${BASE}.icns"
-${CONVERT_TO_ICO} "${SOURCE}" "files/${BASE}.ico"
-
-## append to .gitCloud.yml
-echo "- name: ${BASE}" >> _data/gitCloud.yml
-echo "  href: files/${BASE}.png" >> _data/gitCloud.yml
-echo "- name: ${BASE}" >> _data/gitCloud.yml
-echo "  href: files/${BASE}.ico" >> _data/gitCloud.yml
-echo "- name: ${BASE}" >> _data/gitCloud.yml
-echo "  href: files/${BASE}.icns" >> _data/gitCloud.yml
-
-trap - EXIT
-cleanUp

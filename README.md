@@ -11,7 +11,7 @@ The [index](http://jiahaog.com/nativefier-icons/) is automatically generated wit
 Feel free to submit a pull request for any `.ico`, `.icns` or `.png` icon!
 
 - `.ico` - For Windows
-- `.icns` - For OSX
+- `.icns` - For macOS (Apple Icon Image format)
 - `.png` - For Linux
 
 If the icons for the correct platforms are found here, the [optional dependencies](https://github.com/jiahaog/nativefier/#optional-dependencies) for Nativefier might not be required to infer an icon for that particular target web page.
@@ -61,7 +61,7 @@ You're done! Submit a pull request with the changes and I'll merge them in as so
 
 The main [`./addIcon`](addIcon) script is also provided which takes an input `.png` or `.svg` and does steps 1 and 2 automatically for you.
  
-This script only runs on OSX with XCode installed as [IconUtil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html) is required for conversion to a `.icns` file.
+This script only runs on OSX with XCode installed as [iconutil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html) is required for conversion to a `.icns` file.
 
 Other helpful scripts are:
 
@@ -70,14 +70,15 @@ Other helpful scripts are:
 - [`./bin/convertToPng`](bin/convertToPng) (Supported on Linux)
 
 You need the following dependencies:
-- [ImageMagick](http://www.imagemagick.org/script/index.php) with `convert` and `identify` in your `$PATH`
-- [svg2png](https://github.com/domenic/svg2png) (For `addIcon` only)
-- [iconUtil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html): Xcode needs to be installed (For `addIcon` and `convertToIcns` only)
+
+- [ImageMagick](http://www.imagemagick.org/script/index.php) with `convert` and `identify` in your `$PATH` (required for `.png` input)
+- [CairoSVG](https://cairosvg.org) (required for `.svg` input)
+- [iconutil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html): Xcode needs to be installed (required to generate `.icns`)
 
 ## Work In Progress
 
 - [ ] CI tests for pull requests
-- [ ] Just use a `.png` and let CI convert the icons to the other formats
+- [ ] Just use a `.png` or `.svg` and let CI convert the icons to the other formats
 
 ## Credits
 
