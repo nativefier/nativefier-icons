@@ -26,6 +26,13 @@
 - name: basecamp
   href: files/basecamp.icns
 
+- name: codetree
+  href: files/codetree.png
+- name: codetree
+  href: files/codetree.ico
+- name: codetree
+  href: files/codetree.icns
+
 - name: connectwise
   href: files/connectwise.png
 - name: connectwise
