@@ -187,6 +187,13 @@
 - name: google-keep
   href: files/google-keep.icns
 
+- name: google-maps
+  href: files/google-maps.png
+- name: google-maps
+  href: files/google-maps.ico
+- name: google-maps
+  href: files/google-maps.icns
+
 - name: google-meet
   href: files/google-meet.png
 - name: google-meet
@@ -228,6 +235,13 @@
   href: files/google-slides.ico
 - name: google-slides
   href: files/google-slides.icns
+
+- name: google-translate
+  href: files/google-translate.png
+- name: google-translate
+  href: files/google-translate.ico
+- name: google-translate
+  href: files/google-translate.icns
 
 - name: google-voice
   href: files/google-voice.png
