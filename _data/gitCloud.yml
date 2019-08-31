@@ -537,6 +537,13 @@
 - name: whatsapp
   href: files/whatsapp.icns
 
+- name: webflow
+  href: files/webflow.png
+- name: webflow
+  href: files/webflow.ico
+- name: webflow
+  href: files/webflow.icns
+
 - name: workflowmax
   href: files/workflowmax.png
 - name: workflowmax
