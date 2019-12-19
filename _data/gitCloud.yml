@@ -578,3 +578,10 @@
   href: files/youtube-music.ico
 - name: youtube-music
   href: files/youtube-music.icns
+
+- name: zalo
+  href: files/zalo.png
+- name: zalo
+  href: files/zalo.ico
+- name: zalo
+  href: files/zalo.icns
