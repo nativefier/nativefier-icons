@@ -306,6 +306,13 @@
 - name: jsfiddle
   href: files/jsfiddle.icns
 
+- name: kindle-reader
+  href: files/kindle-reader.png
+- name: kindle-reader
+  href: files/kindle-reader.ico
+- name: kindle-reader
+  href: files/kindle-reader.icns
+  
 - name: medium
   href: files/medium.png
 - name: medium
