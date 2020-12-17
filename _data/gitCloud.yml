@@ -481,6 +481,13 @@
 - name: thelounge
   href: files/thelounge.icns
 
+- name: tidal
+  href: files/tidal.png
+- name: tidal
+  href: files/tidal.ico
+- name: tidal
+  href: files/tidal.icns
+
 - name: todoist
   href: files/todoist.png
 - name: todoist
