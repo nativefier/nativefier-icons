@@ -6,7 +6,7 @@ Feel free to submit a pull request for any `.ico`, `.icns` or `.png` icon!
 - `.icns` - For OSX
 - `.png` - For Linux
 
-If the icons for the correct platforms are found here, the [optional dependencies](https://github.com/jiahaog/nativefier/#optional-dependencies) for Nativefier might not be required to infer an icon for that particular target web page.
+If the icons for the correct platforms are found here, the [optional dependencies](https://github.com/nativefier/nativefier/#optional-dependencies) for Nativefier might not be required to infer an icon for that particular target web page.
 
 ### Naming Convention
 

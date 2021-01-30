@@ -1,10 +1,10 @@
 # Nativefier Icons
 
-Icon Repository for [Nativefier](https://github.com/jiahaog/nativefier/).
+Icon Repository for [Nativefier](https://github.com/nativefier/nativefier/).
 
 Nativefier will look in this repository for high resolution icons before trying to automatically infer an icon from the target Url.
 
-The [index](http://jiahaog.com/nativefier-icons/) is automatically generated with [GitCloud](https://github.com/jiahaog/gitcloud) using Jekyll.
+The [index](https://nativefier.github.io/nativefier-icons/) is automatically generated with [GitCloud](https://github.com/jiahaog/gitcloud) using Jekyll.
 
 ## Contributing
 
@@ -14,7 +14,7 @@ Feel free to submit a pull request for any `.ico`, `.icns` or `.png` icon!
 - `.icns` - For macOS (Apple Icon Image format)
 - `.png` - For Linux
 
-If the icons for the correct platforms are found here, the [optional dependencies](https://github.com/jiahaog/nativefier/#optional-dependencies) for Nativefier might not be required to infer an icon for that particular target web page.
+If the icons for the correct platforms are found here, the [optional dependencies](https://github.com/nativefier/nativefier/#optional-dependencies) for Nativefier might not be required to infer an icon for that particular target web page.
 
 ### Naming Convention
 
