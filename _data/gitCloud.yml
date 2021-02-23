@@ -82,6 +82,13 @@
 - name: duckduckgo
   href: files/duckduckgo.icns
 
+- name: duolingo
+  href: files/duolingo.png
+- name: duolingo
+  href: files/duolingo.ico
+- name: duolingo
+  href: files/duolingo.icns
+
 - name: facebook
   href: files/facebook.png
 - name: facebook
