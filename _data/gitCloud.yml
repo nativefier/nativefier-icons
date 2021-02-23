@@ -278,6 +278,20 @@
 - name: instapaper
   href: files/instapaper.icns
 
+- name: ing
+  href: files/ing.png
+- name: ing
+  href: files/ing.ico
+- name: ing
+  href: files/ing.icns
+
+- name: instagram
+  href: files/instagram.png
+- name: instagram
+  href: files/instagram.ico
+- name: instagram
+  href: files/instagram.icns
+  
 - name: jira
   href: files/jira.png
 - name: jira
@@ -292,20 +306,13 @@
 - name: jsfiddle
   href: files/jsfiddle.icns
 
-- name: ing
-  href: files/ing.png
-- name: ing
-  href: files/ing.ico
-- name: ing
-  href: files/ing.icns
-
-- name: instagram
-  href: files/instagram.png
-- name: instagram
-  href: files/instagram.ico
-- name: instagram
-  href: files/instagram.icns
-
+- name: kindle-reader
+  href: files/kindle-reader.png
+- name: kindle-reader
+  href: files/kindle-reader.ico
+- name: kindle-reader
+  href: files/kindle-reader.icns
+  
 - name: medium
   href: files/medium.png
 - name: medium
