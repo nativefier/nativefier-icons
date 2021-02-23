@@ -404,6 +404,13 @@
 - name: quire
   href: files/quire.icns
 
+- name: quran
+  href: files/quran.png
+- name: quran
+  href: files/quran.ico
+- name: quire
+  href: files/quran.icns
+  
 - name: rainwave
   href: files/rainwave.png
 - name: rainwave
