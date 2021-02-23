@@ -292,6 +292,13 @@
 - name: jsfiddle
   href: files/jsfiddle.icns
 
+- name: jumpcloud
+  href: files/jumpcloud.png
+- name: jumpcloud
+  href: files/jumpcloud.ico
+- name: jumpcloud
+  href: files/jumpcloud.icns
+
 - name: ing
   href: files/ing.png
 - name: ing
