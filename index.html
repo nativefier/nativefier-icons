@@ -4,6 +4,9 @@ layout: default
 
 <div id="file-index">
   {% for file in site.data.gitCloud %}
-    <a href="{{ site.github.url }}/{{file.href}}">{{file.name}}</a>
+    <a href="{{ site.github.url }}/{{file.href}}">
+      <Button class="linkToIcon">
+        {{file.name}}
+      </Button></a>
   {% endfor %}
 </div>
