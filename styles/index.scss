@@ -1,0 +1,45 @@
+// Made by github user talmax1124
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: transparent;
+    outline: transparent;
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+.linkToIcon {
+    padding: 15px;
+    background: black;
+    color: white;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.linkToIcon:hover{
+    background-color: rgb(53, 49, 49);
+}
+
+.linkToIcon:active{
+    background-color: rgb(58, 53, 53);
+}
+
+.site-footer{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    align-self: center;
+}
+
+.site-footer a{
+    color: white;
+}
+
+.site-footer a:hover{
+    color: aliceblue;
+}

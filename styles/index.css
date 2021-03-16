@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: transparent;
+  outline: transparent;
+  text-decoration: none;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
+.linkToIcon {
+  padding: 15px;
+  background: black;
+  color: white;
+  font-size: 2em;
+  margin: 10px;
+}
+
+.linkToIcon:hover {
+  background-color: #353131;
+}
+
+.linkToIcon:active {
+  background-color: #3a3535;
+}
+
+.site-footer {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.site-footer a {
+  color: white;
+}
+
+.site-footer a:hover {
+  color: aliceblue;
+}
+/*# sourceMappingURL=index.css.map */
