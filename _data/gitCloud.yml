@@ -509,6 +509,13 @@
 - name: tumblr
   href: files/tumblr.icns
 
+- name: tutanota
+  href: files/tutanota.png
+- name: tutanota
+  href: files/tutanota.ico
+- name: tutanota
+  href: files/tutanota.icns
+
 - name: twitch
   href: files/twitch.png
 - name: twitch
