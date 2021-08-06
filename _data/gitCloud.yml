@@ -1,8 +1,8 @@
 - name: amazon-music
   href: files/amazon-music.png
-- name: google-photos
+- name: amazon-music
   href: files/amazon-music.ico
-- name: google-photos
+- name: amazon-music
   href: files/amazon-music.icns
 
 - name: asana
