@@ -26,6 +26,13 @@
 - name: basecamp
   href: files/basecamp.icns
 
+- name: blinkist
+  href: files/blinkist.png
+- name: blinkist
+  href: files/blinkist.ico
+- name: blinkist
+  href: files/blinkist.icns
+
 - name: codetree
   href: files/codetree.png
 - name: codetree
