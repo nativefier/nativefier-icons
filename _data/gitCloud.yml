@@ -249,6 +249,20 @@
   href: files/hipchat.ico
 - name: hipchat
   href: files/hipchat.icns
+  
+- name: hbo-max
+  href: files/hbo-max.png
+- name: hbo-max
+  href: files/hbo-max.icns
+- name: hbo-max
+  href: files/hbo-max.ico
+  
+- name: hulu
+  href: files/hulu.png
+- name: hulu
+  href: files/hulu.icns
+- name: hulu
+  href: files/hulu.ico
 
 - name: ifttt
   href: files/ifttt.png
