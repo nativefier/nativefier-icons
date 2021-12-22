@@ -341,6 +341,13 @@
 - name: nirvanahq
   href: files/nirvanahq.icns
 
+- name: openmediavault
+  href: files/openmediavault.png
+- name: openmediavault
+  href: files/openmediavault.ico
+- name: openmediavault
+  href: files/openmediavault.icns
+
 - name: passwordstate
   href: files/passwordstate.png
 - name: passwordstate
