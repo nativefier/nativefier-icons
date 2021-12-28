@@ -1,3 +1,10 @@
+- name: amazon-music
+  href: files/amazon-music.png
+- name: amazon-music
+  href: files/amazon-music.ico
+- name: amazon-music
+  href: files/amazon-music.icns
+
 - name: asana
   href: files/asana.png
 - name: asana
