@@ -242,6 +242,20 @@
   href: files/groupme.ico
 - name: groupme
   href: files/groupme.icns
+  
+- name: hbo-go
+  href: files/hbo-go.png
+- name: hbo-go
+  href: files/hbo-go.ico
+- name: hbo-go
+  href: files/hbo-go.icns
+
+- name: hbo-now
+  href: files/hbo-now.png
+- name: hbo-now
+  href: files/hbo-now.ico
+- name: hbo-now
+  href: files/hbo-now.icns
 
 - name: hipchat
   href: files/hipchat.png
