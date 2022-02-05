@@ -60,6 +60,14 @@
   href: files/diaro.ico
 - name: diaro
   href: files/diaro.icns
+  
+- name: disneyplus
+  href: files/disneyplus.png
+- name: disneyplus
+  href: files/disneyplus.icns
+- name: disneyplus
+  href: files/disneyplus.ico
+
 
 - name: dropbox
   href: files/dropbox.png
@@ -249,6 +257,20 @@
   href: files/hipchat.ico
 - name: hipchat
   href: files/hipchat.icns
+    
+- name: hulu
+  href: files/hulu.png
+- name: hulu
+  href: files/hulu.icns
+- name: hulu
+  href: files/hulu.ico
+
+- name: hbomax
+  href: files/hbomax.png
+- name: hbomax
+  href: files/hbomax.icns
+- name: hbomax
+  href: files/hbomax.ico
 
 - name: ifttt
   href: files/ifttt.png
@@ -334,6 +356,13 @@
 - name: netflix
   href: files/netflix.icns
 
+- name: nhentai
+  href: files/nhentai.png
+- name: nhentai
+  href: files/nhentai.icns
+- name: nhentai
+  href: files/nhentai.ico
+
 - name: nirvanahq
   href: files/nirvanahq.png
 - name: nirvanahq
@@ -382,6 +411,13 @@
   href: files/pocketcasts.ico
 - name: pocketcasts
   href: files/pocketcasts.icns
+
+- name: pornhub
+  href: files/pornhub.png
+- name: pornhub
+  href: files/pornhub.icns
+- name: pornhub
+  href: files/pornhub.ico
 
 - name: producthunt
   href: files/producthunt.png
