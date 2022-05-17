@@ -502,6 +502,13 @@
 - name: tumblr
   href: files/tumblr.icns
 
+- name: tradingview
+  href: files/tradingview.png
+- name: tradingview
+  href: files/tradingview.ico
+- name: tradingview
+  href: files/tradingview.icns
+
 - name: twitch
   href: files/twitch.png
 - name: twitch
