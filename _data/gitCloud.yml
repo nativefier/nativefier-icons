@@ -418,6 +418,13 @@
 - name: regexr
   href: files/regexr.icns
 
+- name: roamresearch
+  href: files/roamresearch.png
+- name: roamresearch
+  href: files/roamresearch.ico
+- name: roamresearch
+  href: files/roamresearch.icns
+
 - name: salesforce
   href: files/salesforce.png
 - name: salesforce
