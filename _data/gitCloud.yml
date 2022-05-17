@@ -320,6 +320,13 @@
 - name: microsoft-azure
   href: files/microsoft-azure.icns
 
+- name: microsoft-teams
+  href: files/microsoft-teams.png
+- name: microsoft-teams
+  href: files/microsoft-teams.ico
+- name: microsoft-teams
+  href: files/microsoft-teams.icns
+
 - name: microsoft-todo
   href: files/microsoft-todo.png
 - name: microsoft-todo
