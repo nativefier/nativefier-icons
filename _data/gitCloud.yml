@@ -319,6 +319,13 @@
   href: files/microsoft-azure.ico
 - name: microsoft-azure
   href: files/microsoft-azure.icns
+ 
+- name: microsoft-kaizala
+  href: files/microsoft-kaizala.png
+- name: microsoft-kaizala
+  href: files/microsoft-kaizala.ico
+- name: microsoft-kaizala
+  href: files/microsoft-kaizala.icns
 
 - name: microsoft-todo
   href: files/microsoft-todo.png
