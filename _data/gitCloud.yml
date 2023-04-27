@@ -389,6 +389,13 @@
   href: files/producthunt.ico
 - name: producthunt
   href: files/producthunt.icns
+  
+- name: pushbullet
+  href: files/pushbullet.png
+- name: pushbullet
+  href: files/pushbullet.ico
+- name: pushbullet
+  href: files/pushbullet.icns
 
 - name: quire
   href: files/quire.png
