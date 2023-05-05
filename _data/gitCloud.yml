@@ -243,6 +243,11 @@
 - name: groupme
   href: files/groupme.icns
 
+- name: hbomax
+  href: files/hbomax.png
+- name: hbomax
+  href: files/hbomax.ico
+
 - name: hipchat
   href: files/hipchat.png
 - name: hipchat
