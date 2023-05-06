@@ -255,6 +255,11 @@
 - name: hipchat
   href: files/hipchat.icns
 
+- name: hulu
+  href: files/hulu.png
+- name: hulu
+  href: files/hulu.ico
+
 - name: ifttt
   href: files/ifttt.png
 - name: ifttt
